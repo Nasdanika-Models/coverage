@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="coverage" nsURI="ecore://nasdanika.org/models/coverage" nsPrefix="org.nasdanika.models.coverage">
+  <eClassifiers xsi:type="ecore:EClass" name="Counter">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="covered" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="missed" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Coverage">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="instructionCounter" eType="#//Counter"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="branchCounter" eType="#//Counter"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="lineCounter" eType="#//Counter"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="complexityCounter" eType="#//Counter"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="methodCounter" eType="#//Counter"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="classCounter" eType="#//Counter"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ModuleCoverage" eSuperTypes="#//Coverage">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="packages" upperBound="-1"
+        eType="#//PackageCoverage" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PackageCoverage" eSuperTypes="#//Coverage">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="classes" upperBound="-1"
+        eType="#//ClassCoverage" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="sourceFiles" upperBound="-1"
+        eType="#//SourceFileCoverage" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Line">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="number" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="instructionCounter" eType="#//Counter"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="branchCounter" eType="#//Counter"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SourceCoverage" eSuperTypes="#//Coverage">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="lines" upperBound="-1"
+        eType="#//Line" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ClassCoverage" eSuperTypes="#//SourceCoverage">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="id" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="interfaces" upperBound="-1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="superType" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="methods" upperBound="-1"
+        eType="#//MethodCoverage" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="signature" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="noMatch" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="MethodCoverage" eSuperTypes="#//SourceCoverage">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="description" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="signature" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SourceFileCoverage" eSuperTypes="#//SourceCoverage"/>
+</ecore:EPackage>

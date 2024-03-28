@@ -1,0 +1,75 @@
+/**
+ */
+package org.nasdanika.models.coverage;
+
+import org.jacoco.core.analysis.IMethodCoverage;
+
+/**
+ * <!-- begin-user-doc -->
+ * A representation of the model object '<em><b>Method Coverage</b></em>'.
+ * <!-- end-user-doc -->
+ *
+ * <p>
+ * The following features are supported:
+ * </p>
+ * <ul>
+ *   <li>{@link org.nasdanika.models.coverage.MethodCoverage#getDescription <em>Description</em>}</li>
+ *   <li>{@link org.nasdanika.models.coverage.MethodCoverage#getSignature <em>Signature</em>}</li>
+ * </ul>
+ *
+ * @see org.nasdanika.models.coverage.CoveragePackage#getMethodCoverage()
+ * @model
+ * @generated
+ */
+public interface MethodCoverage extends SourceCoverage {
+	/**
+	 * Returns the value of the '<em><b>Description</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the value of the '<em>Description</em>' attribute.
+	 * @see #setDescription(String)
+	 * @see org.nasdanika.models.coverage.CoveragePackage#getMethodCoverage_Description()
+	 * @model
+	 * @generated
+	 */
+	String getDescription();
+
+	/**
+	 * Sets the value of the '{@link org.nasdanika.models.coverage.MethodCoverage#getDescription <em>Description</em>}' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @param value the new value of the '<em>Description</em>' attribute.
+	 * @see #getDescription()
+	 * @generated
+	 */
+	void setDescription(String value);
+
+	/**
+	 * Returns the value of the '<em><b>Signature</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the value of the '<em>Signature</em>' attribute.
+	 * @see #setSignature(String)
+	 * @see org.nasdanika.models.coverage.CoveragePackage#getMethodCoverage_Signature()
+	 * @model
+	 * @generated
+	 */
+	String getSignature();
+
+	/**
+	 * Sets the value of the '{@link org.nasdanika.models.coverage.MethodCoverage#getSignature <em>Signature</em>}' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @param value the new value of the '<em>Signature</em>' attribute.
+	 * @see #getSignature()
+	 * @generated
+	 */
+	void setSignature(String value);
+	
+	default void load(IMethodCoverage data) {
+		SourceCoverage.super.load(data);
+		setDescription(data.getDesc());
+		setSignature(data.getSignature());
+	}
+
+} // MethodCoverage
