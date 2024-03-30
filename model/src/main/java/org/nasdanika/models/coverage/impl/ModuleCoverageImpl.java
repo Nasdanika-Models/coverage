@@ -15,6 +15,7 @@ import org.eclipse.emf.ecore.util.InternalEList;
 import org.nasdanika.models.coverage.CoveragePackage;
 import org.nasdanika.models.coverage.ModuleCoverage;
 import org.nasdanika.models.coverage.PackageCoverage;
+import org.nasdanika.models.coverage.Session;
 
 /**
  * <!-- begin-user-doc -->
@@ -25,6 +26,7 @@ import org.nasdanika.models.coverage.PackageCoverage;
  * </p>
  * <ul>
  *   <li>{@link org.nasdanika.models.coverage.impl.ModuleCoverageImpl#getPackages <em>Packages</em>}</li>
+ *   <li>{@link org.nasdanika.models.coverage.impl.ModuleCoverageImpl#getSessions <em>Sessions</em>}</li>
  * </ul>
  *
  * @generated
@@ -65,11 +67,24 @@ public class ModuleCoverageImpl extends CoverageImpl implements ModuleCoverage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@SuppressWarnings("unchecked")
+	@Override
+	public EList<Session> getSessions() {
+		return (EList<Session>)eDynamicGet(CoveragePackage.MODULE_COVERAGE__SESSIONS, CoveragePackage.Literals.MODULE_COVERAGE__SESSIONS, true, true);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
 	@Override
 	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 			case CoveragePackage.MODULE_COVERAGE__PACKAGES:
 				return ((InternalEList<?>)getPackages()).basicRemove(otherEnd, msgs);
+			case CoveragePackage.MODULE_COVERAGE__SESSIONS:
+				return ((InternalEList<?>)getSessions()).basicRemove(otherEnd, msgs);
 		}
 		return super.eInverseRemove(otherEnd, featureID, msgs);
 	}
@@ -84,6 +99,8 @@ public class ModuleCoverageImpl extends CoverageImpl implements ModuleCoverage {
 		switch (featureID) {
 			case CoveragePackage.MODULE_COVERAGE__PACKAGES:
 				return getPackages();
+			case CoveragePackage.MODULE_COVERAGE__SESSIONS:
+				return getSessions();
 		}
 		return super.eGet(featureID, resolve, coreType);
 	}
@@ -101,6 +118,10 @@ public class ModuleCoverageImpl extends CoverageImpl implements ModuleCoverage {
 				getPackages().clear();
 				getPackages().addAll((Collection<? extends PackageCoverage>)newValue);
 				return;
+			case CoveragePackage.MODULE_COVERAGE__SESSIONS:
+				getSessions().clear();
+				getSessions().addAll((Collection<? extends Session>)newValue);
+				return;
 		}
 		super.eSet(featureID, newValue);
 	}
@@ -116,6 +137,9 @@ public class ModuleCoverageImpl extends CoverageImpl implements ModuleCoverage {
 			case CoveragePackage.MODULE_COVERAGE__PACKAGES:
 				getPackages().clear();
 				return;
+			case CoveragePackage.MODULE_COVERAGE__SESSIONS:
+				getSessions().clear();
+				return;
 		}
 		super.eUnset(featureID);
 	}
@@ -130,6 +154,8 @@ public class ModuleCoverageImpl extends CoverageImpl implements ModuleCoverage {
 		switch (featureID) {
 			case CoveragePackage.MODULE_COVERAGE__PACKAGES:
 				return !getPackages().isEmpty();
+			case CoveragePackage.MODULE_COVERAGE__SESSIONS:
+				return !getSessions().isEmpty();
 		}
 		return super.eIsSet(featureID);
 	}

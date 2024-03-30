@@ -58,6 +58,7 @@ public class CoverageFactoryImpl extends EFactoryImpl implements CoverageFactory
 		switch (eClass.getClassifierID()) {
 			case CoveragePackage.COUNTER: return createCounter();
 			case CoveragePackage.COVERAGE: return createCoverage();
+			case CoveragePackage.SESSION: return createSession();
 			case CoveragePackage.MODULE_COVERAGE: return createModuleCoverage();
 			case CoveragePackage.PACKAGE_COVERAGE: return createPackageCoverage();
 			case CoveragePackage.LINE: return createLine();
@@ -90,6 +91,17 @@ public class CoverageFactoryImpl extends EFactoryImpl implements CoverageFactory
 	public Coverage createCoverage() {
 		CoverageImpl coverage = new CoverageImpl();
 		return coverage;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Session createSession() {
+		SessionImpl session = new SessionImpl();
+		return session;
 	}
 
 	/**

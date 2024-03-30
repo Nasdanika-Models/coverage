@@ -2,6 +2,8 @@
  */
 package org.nasdanika.models.coverage.impl;
 
+import java.util.Collection;
+import org.eclipse.emf.common.util.EList;
 import org.eclipse.emf.ecore.EClass;
 
 import org.nasdanika.models.coverage.CoveragePackage;
@@ -17,6 +19,7 @@ import org.nasdanika.models.coverage.MethodCoverage;
  * <ul>
  *   <li>{@link org.nasdanika.models.coverage.impl.MethodCoverageImpl#getDescription <em>Description</em>}</li>
  *   <li>{@link org.nasdanika.models.coverage.impl.MethodCoverageImpl#getSignature <em>Signature</em>}</li>
+ *   <li>{@link org.nasdanika.models.coverage.impl.MethodCoverageImpl#getParameterTypes <em>Parameter Types</em>}</li>
  * </ul>
  *
  * @generated
@@ -106,6 +109,17 @@ public class MethodCoverageImpl extends SourceCoverageImpl implements MethodCove
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@SuppressWarnings("unchecked")
+	@Override
+	public EList<String> getParameterTypes() {
+		return (EList<String>)eDynamicGet(CoveragePackage.METHOD_COVERAGE__PARAMETER_TYPES, CoveragePackage.Literals.METHOD_COVERAGE__PARAMETER_TYPES, true, true);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
 	@Override
 	public Object eGet(int featureID, boolean resolve, boolean coreType) {
 		switch (featureID) {
@@ -113,6 +127,8 @@ public class MethodCoverageImpl extends SourceCoverageImpl implements MethodCove
 				return getDescription();
 			case CoveragePackage.METHOD_COVERAGE__SIGNATURE:
 				return getSignature();
+			case CoveragePackage.METHOD_COVERAGE__PARAMETER_TYPES:
+				return getParameterTypes();
 		}
 		return super.eGet(featureID, resolve, coreType);
 	}
@@ -122,6 +138,7 @@ public class MethodCoverageImpl extends SourceCoverageImpl implements MethodCove
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@SuppressWarnings("unchecked")
 	@Override
 	public void eSet(int featureID, Object newValue) {
 		switch (featureID) {
@@ -130,6 +147,10 @@ public class MethodCoverageImpl extends SourceCoverageImpl implements MethodCove
 				return;
 			case CoveragePackage.METHOD_COVERAGE__SIGNATURE:
 				setSignature((String)newValue);
+				return;
+			case CoveragePackage.METHOD_COVERAGE__PARAMETER_TYPES:
+				getParameterTypes().clear();
+				getParameterTypes().addAll((Collection<? extends String>)newValue);
 				return;
 		}
 		super.eSet(featureID, newValue);
@@ -149,6 +170,9 @@ public class MethodCoverageImpl extends SourceCoverageImpl implements MethodCove
 			case CoveragePackage.METHOD_COVERAGE__SIGNATURE:
 				setSignature(SIGNATURE_EDEFAULT);
 				return;
+			case CoveragePackage.METHOD_COVERAGE__PARAMETER_TYPES:
+				getParameterTypes().clear();
+				return;
 		}
 		super.eUnset(featureID);
 	}
@@ -165,6 +189,8 @@ public class MethodCoverageImpl extends SourceCoverageImpl implements MethodCove
 				return DESCRIPTION_EDEFAULT == null ? getDescription() != null : !DESCRIPTION_EDEFAULT.equals(getDescription());
 			case CoveragePackage.METHOD_COVERAGE__SIGNATURE:
 				return SIGNATURE_EDEFAULT == null ? getSignature() != null : !SIGNATURE_EDEFAULT.equals(getSignature());
+			case CoveragePackage.METHOD_COVERAGE__PARAMETER_TYPES:
+				return !getParameterTypes().isEmpty();
 		}
 		return super.eIsSet(featureID);
 	}

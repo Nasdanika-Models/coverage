@@ -78,6 +78,12 @@ public class CoverageSwitch<T> extends Switch<T> {
 				if (result == null) result = defaultCase(theEObject);
 				return result;
 			}
+			case CoveragePackage.SESSION: {
+				Session session = (Session)theEObject;
+				T result = caseSession(session);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
 			case CoveragePackage.MODULE_COVERAGE: {
 				ModuleCoverage moduleCoverage = (ModuleCoverage)theEObject;
 				T result = caseModuleCoverage(moduleCoverage);
@@ -160,6 +166,21 @@ public class CoverageSwitch<T> extends Switch<T> {
 	 * @generated
 	 */
 	public T caseCoverage(Coverage object) {
+		return null;
+	}
+
+	/**
+	 * Returns the result of interpreting the object as an instance of '<em>Session</em>'.
+	 * <!-- begin-user-doc -->
+	 * This implementation returns null;
+	 * returning a non-null result will terminate the switch.
+	 * <!-- end-user-doc -->
+	 * @param object the target of the switch.
+	 * @return the result of interpreting the object as an instance of '<em>Session</em>'.
+	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+	 * @generated
+	 */
+	public T caseSession(Session object) {
 		return null;
 	}
 

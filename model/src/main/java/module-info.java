@@ -6,5 +6,6 @@ module org.nasdanika.models.coverage {
 	requires transitive org.eclipse.emf.ecore;
 	requires transitive org.eclipse.emf.common;
 	requires transitive org.jacoco.core;
+	requires org.objectweb.asm;
 
 }

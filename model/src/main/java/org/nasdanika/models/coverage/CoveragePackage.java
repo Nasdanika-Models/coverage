@@ -195,6 +195,61 @@ public interface CoveragePackage extends EPackage {
 
 
 	/**
+	 * The meta object id for the '{@link org.nasdanika.models.coverage.impl.SessionImpl <em>Session</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.nasdanika.models.coverage.impl.SessionImpl
+	 * @see org.nasdanika.models.coverage.impl.CoveragePackageImpl#getSession()
+	 * @generated
+	 */
+	int SESSION = 2;
+
+	/**
+	 * The feature id for the '<em><b>Id</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int SESSION__ID = 0;
+
+	/**
+	 * The feature id for the '<em><b>Start</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int SESSION__START = 1;
+
+	/**
+	 * The feature id for the '<em><b>Dump</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int SESSION__DUMP = 2;
+
+	/**
+	 * The number of structural features of the '<em>Session</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int SESSION_FEATURE_COUNT = 3;
+
+	/**
+	 * The number of operations of the '<em>Session</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int SESSION_OPERATION_COUNT = 0;
+
+	/**
 	 * The meta object id for the '{@link org.nasdanika.models.coverage.impl.ModuleCoverageImpl <em>Module Coverage</em>}' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -202,7 +257,7 @@ public interface CoveragePackage extends EPackage {
 	 * @see org.nasdanika.models.coverage.impl.CoveragePackageImpl#getModuleCoverage()
 	 * @generated
 	 */
-	int MODULE_COVERAGE = 2;
+	int MODULE_COVERAGE = 3;
 
 	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
@@ -277,13 +332,22 @@ public interface CoveragePackage extends EPackage {
 	int MODULE_COVERAGE__PACKAGES = COVERAGE_FEATURE_COUNT + 0;
 
 	/**
+	 * The feature id for the '<em><b>Sessions</b></em>' containment reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int MODULE_COVERAGE__SESSIONS = COVERAGE_FEATURE_COUNT + 1;
+
+	/**
 	 * The number of structural features of the '<em>Module Coverage</em>' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int MODULE_COVERAGE_FEATURE_COUNT = COVERAGE_FEATURE_COUNT + 1;
+	int MODULE_COVERAGE_FEATURE_COUNT = COVERAGE_FEATURE_COUNT + 2;
 
 	/**
 	 * The number of operations of the '<em>Module Coverage</em>' class.
@@ -302,7 +366,7 @@ public interface CoveragePackage extends EPackage {
 	 * @see org.nasdanika.models.coverage.impl.CoveragePackageImpl#getPackageCoverage()
 	 * @generated
 	 */
-	int PACKAGE_COVERAGE = 3;
+	int PACKAGE_COVERAGE = 4;
 
 	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
@@ -411,7 +475,7 @@ public interface CoveragePackage extends EPackage {
 	 * @see org.nasdanika.models.coverage.impl.CoveragePackageImpl#getLine()
 	 * @generated
 	 */
-	int LINE = 4;
+	int LINE = 5;
 
 	/**
 	 * The feature id for the '<em><b>Number</b></em>' attribute.
@@ -466,7 +530,7 @@ public interface CoveragePackage extends EPackage {
 	 * @see org.nasdanika.models.coverage.impl.CoveragePackageImpl#getSourceCoverage()
 	 * @generated
 	 */
-	int SOURCE_COVERAGE = 5;
+	int SOURCE_COVERAGE = 6;
 
 	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
@@ -566,7 +630,7 @@ public interface CoveragePackage extends EPackage {
 	 * @see org.nasdanika.models.coverage.impl.CoveragePackageImpl#getClassCoverage()
 	 * @generated
 	 */
-	int CLASS_COVERAGE = 6;
+	int CLASS_COVERAGE = 7;
 
 	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
@@ -720,7 +784,7 @@ public interface CoveragePackage extends EPackage {
 	 * @see org.nasdanika.models.coverage.impl.CoveragePackageImpl#getMethodCoverage()
 	 * @generated
 	 */
-	int METHOD_COVERAGE = 7;
+	int METHOD_COVERAGE = 8;
 
 	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
@@ -813,13 +877,22 @@ public interface CoveragePackage extends EPackage {
 	int METHOD_COVERAGE__SIGNATURE = SOURCE_COVERAGE_FEATURE_COUNT + 1;
 
 	/**
+	 * The feature id for the '<em><b>Parameter Types</b></em>' attribute list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int METHOD_COVERAGE__PARAMETER_TYPES = SOURCE_COVERAGE_FEATURE_COUNT + 2;
+
+	/**
 	 * The number of structural features of the '<em>Method Coverage</em>' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int METHOD_COVERAGE_FEATURE_COUNT = SOURCE_COVERAGE_FEATURE_COUNT + 2;
+	int METHOD_COVERAGE_FEATURE_COUNT = SOURCE_COVERAGE_FEATURE_COUNT + 3;
 
 	/**
 	 * The number of operations of the '<em>Method Coverage</em>' class.
@@ -838,7 +911,7 @@ public interface CoveragePackage extends EPackage {
 	 * @see org.nasdanika.models.coverage.impl.CoveragePackageImpl#getSourceFileCoverage()
 	 * @generated
 	 */
-	int SOURCE_FILE_COVERAGE = 8;
+	int SOURCE_FILE_COVERAGE = 9;
 
 	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
@@ -1051,6 +1124,49 @@ public interface CoveragePackage extends EPackage {
 	EReference getCoverage_ClassCounter();
 
 	/**
+	 * Returns the meta object for class '{@link org.nasdanika.models.coverage.Session <em>Session</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Session</em>'.
+	 * @see org.nasdanika.models.coverage.Session
+	 * @generated
+	 */
+	EClass getSession();
+
+	/**
+	 * Returns the meta object for the attribute '{@link org.nasdanika.models.coverage.Session#getId <em>Id</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Id</em>'.
+	 * @see org.nasdanika.models.coverage.Session#getId()
+	 * @see #getSession()
+	 * @generated
+	 */
+	EAttribute getSession_Id();
+
+	/**
+	 * Returns the meta object for the attribute '{@link org.nasdanika.models.coverage.Session#getStart <em>Start</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Start</em>'.
+	 * @see org.nasdanika.models.coverage.Session#getStart()
+	 * @see #getSession()
+	 * @generated
+	 */
+	EAttribute getSession_Start();
+
+	/**
+	 * Returns the meta object for the attribute '{@link org.nasdanika.models.coverage.Session#getDump <em>Dump</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Dump</em>'.
+	 * @see org.nasdanika.models.coverage.Session#getDump()
+	 * @see #getSession()
+	 * @generated
+	 */
+	EAttribute getSession_Dump();
+
+	/**
 	 * Returns the meta object for class '{@link org.nasdanika.models.coverage.ModuleCoverage <em>Module Coverage</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -1070,6 +1186,17 @@ public interface CoveragePackage extends EPackage {
 	 * @generated
 	 */
 	EReference getModuleCoverage_Packages();
+
+	/**
+	 * Returns the meta object for the containment reference list '{@link org.nasdanika.models.coverage.ModuleCoverage#getSessions <em>Sessions</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the containment reference list '<em>Sessions</em>'.
+	 * @see org.nasdanika.models.coverage.ModuleCoverage#getSessions()
+	 * @see #getModuleCoverage()
+	 * @generated
+	 */
+	EReference getModuleCoverage_Sessions();
 
 	/**
 	 * Returns the meta object for class '{@link org.nasdanika.models.coverage.PackageCoverage <em>Package Coverage</em>}'.
@@ -1276,6 +1403,17 @@ public interface CoveragePackage extends EPackage {
 	EAttribute getMethodCoverage_Signature();
 
 	/**
+	 * Returns the meta object for the attribute list '{@link org.nasdanika.models.coverage.MethodCoverage#getParameterTypes <em>Parameter Types</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute list '<em>Parameter Types</em>'.
+	 * @see org.nasdanika.models.coverage.MethodCoverage#getParameterTypes()
+	 * @see #getMethodCoverage()
+	 * @generated
+	 */
+	EAttribute getMethodCoverage_ParameterTypes();
+
+	/**
 	 * Returns the meta object for class '{@link org.nasdanika.models.coverage.SourceFileCoverage <em>Source File Coverage</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -1390,6 +1528,36 @@ public interface CoveragePackage extends EPackage {
 		 */
 		EReference COVERAGE__CLASS_COUNTER = eINSTANCE.getCoverage_ClassCounter();
 		/**
+		 * The meta object literal for the '{@link org.nasdanika.models.coverage.impl.SessionImpl <em>Session</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.nasdanika.models.coverage.impl.SessionImpl
+		 * @see org.nasdanika.models.coverage.impl.CoveragePackageImpl#getSession()
+		 * @generated
+		 */
+		EClass SESSION = eINSTANCE.getSession();
+		/**
+		 * The meta object literal for the '<em><b>Id</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute SESSION__ID = eINSTANCE.getSession_Id();
+		/**
+		 * The meta object literal for the '<em><b>Start</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute SESSION__START = eINSTANCE.getSession_Start();
+		/**
+		 * The meta object literal for the '<em><b>Dump</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute SESSION__DUMP = eINSTANCE.getSession_Dump();
+		/**
 		 * The meta object literal for the '{@link org.nasdanika.models.coverage.impl.ModuleCoverageImpl <em>Module Coverage</em>}' class.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
@@ -1405,6 +1573,13 @@ public interface CoveragePackage extends EPackage {
 		 * @generated
 		 */
 		EReference MODULE_COVERAGE__PACKAGES = eINSTANCE.getModuleCoverage_Packages();
+		/**
+		 * The meta object literal for the '<em><b>Sessions</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference MODULE_COVERAGE__SESSIONS = eINSTANCE.getModuleCoverage_Sessions();
 		/**
 		 * The meta object literal for the '{@link org.nasdanika.models.coverage.impl.PackageCoverageImpl <em>Package Coverage</em>}' class.
 		 * <!-- begin-user-doc -->
@@ -1548,6 +1723,13 @@ public interface CoveragePackage extends EPackage {
 		 * @generated
 		 */
 		EAttribute METHOD_COVERAGE__SIGNATURE = eINSTANCE.getMethodCoverage_Signature();
+		/**
+		 * The meta object literal for the '<em><b>Parameter Types</b></em>' attribute list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute METHOD_COVERAGE__PARAMETER_TYPES = eINSTANCE.getMethodCoverage_ParameterTypes();
 		/**
 		 * The meta object literal for the '{@link org.nasdanika.models.coverage.impl.SourceFileCoverageImpl <em>Source File Coverage</em>}' class.
 		 * <!-- begin-user-doc -->

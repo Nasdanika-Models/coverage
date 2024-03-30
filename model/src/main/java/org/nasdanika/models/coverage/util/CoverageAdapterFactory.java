@@ -76,6 +76,10 @@ public class CoverageAdapterFactory extends AdapterFactoryImpl {
 				return createCoverageAdapter();
 			}
 			@Override
+			public Adapter caseSession(Session object) {
+				return createSessionAdapter();
+			}
+			@Override
 			public Adapter caseModuleCoverage(ModuleCoverage object) {
 				return createModuleCoverageAdapter();
 			}
@@ -148,6 +152,20 @@ public class CoverageAdapterFactory extends AdapterFactoryImpl {
 	 * @generated
 	 */
 	public Adapter createCoverageAdapter() {
+		return null;
+	}
+
+	/**
+	 * Creates a new adapter for an object of class '{@link org.nasdanika.models.coverage.Session <em>Session</em>}'.
+	 * <!-- begin-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
+	 * @return the new adapter.
+	 * @see org.nasdanika.models.coverage.Session
+	 * @generated
+	 */
+	public Adapter createSessionAdapter() {
 		return null;
 	}
 

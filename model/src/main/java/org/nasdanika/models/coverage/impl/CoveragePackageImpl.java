@@ -18,6 +18,7 @@ import org.nasdanika.models.coverage.Line;
 import org.nasdanika.models.coverage.MethodCoverage;
 import org.nasdanika.models.coverage.ModuleCoverage;
 import org.nasdanika.models.coverage.PackageCoverage;
+import org.nasdanika.models.coverage.Session;
 import org.nasdanika.models.coverage.SourceCoverage;
 import org.nasdanika.models.coverage.SourceFileCoverage;
 
@@ -41,6 +42,12 @@ public class CoveragePackageImpl extends EPackageImpl implements CoveragePackage
 	 */
 	private EClass coverageEClass = null;
 
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	private EClass sessionEClass = null;
 	/**
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -260,6 +267,46 @@ public class CoveragePackageImpl extends EPackageImpl implements CoveragePackage
 	 * @generated
 	 */
 	@Override
+	public EClass getSession() {
+		return sessionEClass;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public EAttribute getSession_Id() {
+		return (EAttribute)sessionEClass.getEStructuralFeatures().get(0);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public EAttribute getSession_Start() {
+		return (EAttribute)sessionEClass.getEStructuralFeatures().get(1);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public EAttribute getSession_Dump() {
+		return (EAttribute)sessionEClass.getEStructuralFeatures().get(2);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
 	public EClass getModuleCoverage() {
 		return moduleCoverageEClass;
 	}
@@ -272,6 +319,16 @@ public class CoveragePackageImpl extends EPackageImpl implements CoveragePackage
 	@Override
 	public EReference getModuleCoverage_Packages() {
 		return (EReference)moduleCoverageEClass.getEStructuralFeatures().get(0);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public EReference getModuleCoverage_Sessions() {
+		return (EReference)moduleCoverageEClass.getEStructuralFeatures().get(1);
 	}
 
 	/**
@@ -470,6 +527,16 @@ public class CoveragePackageImpl extends EPackageImpl implements CoveragePackage
 	 * @generated
 	 */
 	@Override
+	public EAttribute getMethodCoverage_ParameterTypes() {
+		return (EAttribute)methodCoverageEClass.getEStructuralFeatures().get(2);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
 	public EClass getSourceFileCoverage() {
 		return sourceFileCoverageEClass;
 	}
@@ -516,8 +583,14 @@ public class CoveragePackageImpl extends EPackageImpl implements CoveragePackage
 		createEReference(coverageEClass, COVERAGE__METHOD_COUNTER);
 		createEReference(coverageEClass, COVERAGE__CLASS_COUNTER);
 
+		sessionEClass = createEClass(SESSION);
+		createEAttribute(sessionEClass, SESSION__ID);
+		createEAttribute(sessionEClass, SESSION__START);
+		createEAttribute(sessionEClass, SESSION__DUMP);
+
 		moduleCoverageEClass = createEClass(MODULE_COVERAGE);
 		createEReference(moduleCoverageEClass, MODULE_COVERAGE__PACKAGES);
+		createEReference(moduleCoverageEClass, MODULE_COVERAGE__SESSIONS);
 
 		packageCoverageEClass = createEClass(PACKAGE_COVERAGE);
 		createEReference(packageCoverageEClass, PACKAGE_COVERAGE__CLASSES);
@@ -542,6 +615,7 @@ public class CoveragePackageImpl extends EPackageImpl implements CoveragePackage
 		methodCoverageEClass = createEClass(METHOD_COVERAGE);
 		createEAttribute(methodCoverageEClass, METHOD_COVERAGE__DESCRIPTION);
 		createEAttribute(methodCoverageEClass, METHOD_COVERAGE__SIGNATURE);
+		createEAttribute(methodCoverageEClass, METHOD_COVERAGE__PARAMETER_TYPES);
 
 		sourceFileCoverageEClass = createEClass(SOURCE_FILE_COVERAGE);
 	}
@@ -595,8 +669,14 @@ public class CoveragePackageImpl extends EPackageImpl implements CoveragePackage
 		initEReference(getCoverage_MethodCounter(), this.getCounter(), null, "methodCounter", null, 0, 1, Coverage.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEReference(getCoverage_ClassCounter(), this.getCounter(), null, "classCounter", null, 0, 1, Coverage.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
+		initEClass(sessionEClass, Session.class, "Session", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
+		initEAttribute(getSession_Id(), ecorePackage.getEString(), "id", null, 0, 1, Session.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEAttribute(getSession_Start(), ecorePackage.getEDate(), "start", null, 0, 1, Session.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEAttribute(getSession_Dump(), ecorePackage.getEDate(), "dump", null, 0, 1, Session.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+
 		initEClass(moduleCoverageEClass, ModuleCoverage.class, "ModuleCoverage", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 		initEReference(getModuleCoverage_Packages(), this.getPackageCoverage(), null, "packages", null, 0, -1, ModuleCoverage.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEReference(getModuleCoverage_Sessions(), this.getSession(), null, "sessions", null, 0, -1, ModuleCoverage.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		initEClass(packageCoverageEClass, PackageCoverage.class, "PackageCoverage", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 		initEReference(getPackageCoverage_Classes(), this.getClassCoverage(), null, "classes", null, 0, -1, PackageCoverage.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
@@ -621,6 +701,7 @@ public class CoveragePackageImpl extends EPackageImpl implements CoveragePackage
 		initEClass(methodCoverageEClass, MethodCoverage.class, "MethodCoverage", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 		initEAttribute(getMethodCoverage_Description(), ecorePackage.getEString(), "description", null, 0, 1, MethodCoverage.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEAttribute(getMethodCoverage_Signature(), ecorePackage.getEString(), "signature", null, 0, 1, MethodCoverage.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEAttribute(getMethodCoverage_ParameterTypes(), ecorePackage.getEString(), "parameterTypes", null, 0, -1, MethodCoverage.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		initEClass(sourceFileCoverageEClass, SourceFileCoverage.class, "SourceFileCoverage", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 

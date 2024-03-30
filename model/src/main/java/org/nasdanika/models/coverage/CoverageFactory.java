@@ -40,6 +40,15 @@ public interface CoverageFactory extends EFactory {
 	Coverage createCoverage();
 
 	/**
+	 * Returns a new object of class '<em>Session</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Session</em>'.
+	 * @generated
+	 */
+	Session createSession();
+
+	/**
 	 * Returns a new object of class '<em>Module Coverage</em>'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->

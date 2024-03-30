@@ -21,8 +21,14 @@
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference coverage.ecore#//Coverage/methodCounter"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference coverage.ecore#//Coverage/classCounter"/>
     </genClasses>
+    <genClasses ecoreClass="coverage.ecore#//Session">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute coverage.ecore#//Session/id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute coverage.ecore#//Session/start"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute coverage.ecore#//Session/dump"/>
+    </genClasses>
     <genClasses ecoreClass="coverage.ecore#//ModuleCoverage">
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference coverage.ecore#//ModuleCoverage/packages"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference coverage.ecore#//ModuleCoverage/sessions"/>
     </genClasses>
     <genClasses ecoreClass="coverage.ecore#//PackageCoverage">
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference coverage.ecore#//PackageCoverage/classes"/>
@@ -47,7 +53,9 @@
     <genClasses ecoreClass="coverage.ecore#//MethodCoverage">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute coverage.ecore#//MethodCoverage/description"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute coverage.ecore#//MethodCoverage/signature"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EReference coverage.ecore#//MethodCoverage/parameterTypes"/>
     </genClasses>
     <genClasses ecoreClass="coverage.ecore#//SourceFileCoverage"/>
+    <genClasses ecoreClass="coverage.ecore#//Type"/>
   </genPackages>
 </genmodel:GenModel>
