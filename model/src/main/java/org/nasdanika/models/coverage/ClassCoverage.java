@@ -21,6 +21,8 @@ import org.jacoco.core.analysis.IMethodCoverage;
  *   <li>{@link org.nasdanika.models.coverage.ClassCoverage#getMethods <em>Methods</em>}</li>
  *   <li>{@link org.nasdanika.models.coverage.ClassCoverage#getSignature <em>Signature</em>}</li>
  *   <li>{@link org.nasdanika.models.coverage.ClassCoverage#isNoMatch <em>No Match</em>}</li>
+ *   <li>{@link org.nasdanika.models.coverage.ClassCoverage#getSourceFile <em>Source File</em>}</li>
+ *   <li>{@link org.nasdanika.models.coverage.ClassCoverage#getPackageName <em>Package Name</em>}</li>
  * </ul>
  *
  * @see org.nasdanika.models.coverage.CoveragePackage#getClassCoverage()
@@ -140,6 +142,50 @@ public interface ClassCoverage extends SourceCoverage {
 	 */
 	void setNoMatch(boolean value);
 	
+	/**
+	 * Returns the value of the '<em><b>Source File</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the value of the '<em>Source File</em>' attribute.
+	 * @see #setSourceFile(String)
+	 * @see org.nasdanika.models.coverage.CoveragePackage#getClassCoverage_SourceFile()
+	 * @model
+	 * @generated
+	 */
+	String getSourceFile();
+
+	/**
+	 * Sets the value of the '{@link org.nasdanika.models.coverage.ClassCoverage#getSourceFile <em>Source File</em>}' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @param value the new value of the '<em>Source File</em>' attribute.
+	 * @see #getSourceFile()
+	 * @generated
+	 */
+	void setSourceFile(String value);
+
+	/**
+	 * Returns the value of the '<em><b>Package Name</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the value of the '<em>Package Name</em>' attribute.
+	 * @see #setPackageName(String)
+	 * @see org.nasdanika.models.coverage.CoveragePackage#getClassCoverage_PackageName()
+	 * @model
+	 * @generated
+	 */
+	String getPackageName();
+
+	/**
+	 * Sets the value of the '{@link org.nasdanika.models.coverage.ClassCoverage#getPackageName <em>Package Name</em>}' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @param value the new value of the '<em>Package Name</em>' attribute.
+	 * @see #getPackageName()
+	 * @generated
+	 */
+	void setPackageName(String value);
+
 	default void load(IClassCoverage data) {
 		SourceCoverage.super.load(data);
 		EList<String> interfaces = getInterfaces();
@@ -156,6 +202,8 @@ public interface ClassCoverage extends SourceCoverage {
 		setNoMatch(data.isNoMatch());
 		setSignature(data.getSignature());
 		setSuperType(data.getSuperName());		
+		setSourceFile(data.getSourceFileName());
+		setPackageName(data.getPackageName());
 	}
 
 } // ClassCoverage

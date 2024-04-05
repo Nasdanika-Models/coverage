@@ -31,6 +31,8 @@ import org.nasdanika.models.coverage.MethodCoverage;
  *   <li>{@link org.nasdanika.models.coverage.impl.ClassCoverageImpl#getMethods <em>Methods</em>}</li>
  *   <li>{@link org.nasdanika.models.coverage.impl.ClassCoverageImpl#getSignature <em>Signature</em>}</li>
  *   <li>{@link org.nasdanika.models.coverage.impl.ClassCoverageImpl#isNoMatch <em>No Match</em>}</li>
+ *   <li>{@link org.nasdanika.models.coverage.impl.ClassCoverageImpl#getSourceFile <em>Source File</em>}</li>
+ *   <li>{@link org.nasdanika.models.coverage.impl.ClassCoverageImpl#getPackageName <em>Package Name</em>}</li>
  * </ul>
  *
  * @generated
@@ -75,6 +77,26 @@ public class ClassCoverageImpl extends SourceCoverageImpl implements ClassCovera
 	 * @ordered
 	 */
 	protected static final boolean NO_MATCH_EDEFAULT = false;
+
+	/**
+	 * The default value of the '{@link #getSourceFile() <em>Source File</em>}' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see #getSourceFile()
+	 * @generated
+	 * @ordered
+	 */
+	protected static final String SOURCE_FILE_EDEFAULT = null;
+
+	/**
+	 * The default value of the '{@link #getPackageName() <em>Package Name</em>}' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see #getPackageName()
+	 * @generated
+	 * @ordered
+	 */
+	protected static final String PACKAGE_NAME_EDEFAULT = null;
 
 	/**
 	 * <!-- begin-user-doc -->
@@ -203,6 +225,46 @@ public class ClassCoverageImpl extends SourceCoverageImpl implements ClassCovera
 	 * @generated
 	 */
 	@Override
+	public String getSourceFile() {
+		return (String)eDynamicGet(CoveragePackage.CLASS_COVERAGE__SOURCE_FILE, CoveragePackage.Literals.CLASS_COVERAGE__SOURCE_FILE, true, true);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public void setSourceFile(String newSourceFile) {
+		eDynamicSet(CoveragePackage.CLASS_COVERAGE__SOURCE_FILE, CoveragePackage.Literals.CLASS_COVERAGE__SOURCE_FILE, newSourceFile);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public String getPackageName() {
+		return (String)eDynamicGet(CoveragePackage.CLASS_COVERAGE__PACKAGE_NAME, CoveragePackage.Literals.CLASS_COVERAGE__PACKAGE_NAME, true, true);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public void setPackageName(String newPackageName) {
+		eDynamicSet(CoveragePackage.CLASS_COVERAGE__PACKAGE_NAME, CoveragePackage.Literals.CLASS_COVERAGE__PACKAGE_NAME, newPackageName);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
 	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 			case CoveragePackage.CLASS_COVERAGE__METHODS:
@@ -231,6 +293,10 @@ public class ClassCoverageImpl extends SourceCoverageImpl implements ClassCovera
 				return getSignature();
 			case CoveragePackage.CLASS_COVERAGE__NO_MATCH:
 				return isNoMatch();
+			case CoveragePackage.CLASS_COVERAGE__SOURCE_FILE:
+				return getSourceFile();
+			case CoveragePackage.CLASS_COVERAGE__PACKAGE_NAME:
+				return getPackageName();
 		}
 		return super.eGet(featureID, resolve, coreType);
 	}
@@ -264,6 +330,12 @@ public class ClassCoverageImpl extends SourceCoverageImpl implements ClassCovera
 			case CoveragePackage.CLASS_COVERAGE__NO_MATCH:
 				setNoMatch((Boolean)newValue);
 				return;
+			case CoveragePackage.CLASS_COVERAGE__SOURCE_FILE:
+				setSourceFile((String)newValue);
+				return;
+			case CoveragePackage.CLASS_COVERAGE__PACKAGE_NAME:
+				setPackageName((String)newValue);
+				return;
 		}
 		super.eSet(featureID, newValue);
 	}
@@ -294,6 +366,12 @@ public class ClassCoverageImpl extends SourceCoverageImpl implements ClassCovera
 			case CoveragePackage.CLASS_COVERAGE__NO_MATCH:
 				setNoMatch(NO_MATCH_EDEFAULT);
 				return;
+			case CoveragePackage.CLASS_COVERAGE__SOURCE_FILE:
+				setSourceFile(SOURCE_FILE_EDEFAULT);
+				return;
+			case CoveragePackage.CLASS_COVERAGE__PACKAGE_NAME:
+				setPackageName(PACKAGE_NAME_EDEFAULT);
+				return;
 		}
 		super.eUnset(featureID);
 	}
@@ -318,6 +396,10 @@ public class ClassCoverageImpl extends SourceCoverageImpl implements ClassCovera
 				return SIGNATURE_EDEFAULT == null ? getSignature() != null : !SIGNATURE_EDEFAULT.equals(getSignature());
 			case CoveragePackage.CLASS_COVERAGE__NO_MATCH:
 				return isNoMatch() != NO_MATCH_EDEFAULT;
+			case CoveragePackage.CLASS_COVERAGE__SOURCE_FILE:
+				return SOURCE_FILE_EDEFAULT == null ? getSourceFile() != null : !SOURCE_FILE_EDEFAULT.equals(getSourceFile());
+			case CoveragePackage.CLASS_COVERAGE__PACKAGE_NAME:
+				return PACKAGE_NAME_EDEFAULT == null ? getPackageName() != null : !PACKAGE_NAME_EDEFAULT.equals(getPackageName());
 		}
 		return super.eIsSet(featureID);
 	}

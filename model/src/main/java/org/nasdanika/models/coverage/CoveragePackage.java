@@ -759,13 +759,31 @@ public interface CoveragePackage extends EPackage {
 	int CLASS_COVERAGE__NO_MATCH = SOURCE_COVERAGE_FEATURE_COUNT + 5;
 
 	/**
+	 * The feature id for the '<em><b>Source File</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int CLASS_COVERAGE__SOURCE_FILE = SOURCE_COVERAGE_FEATURE_COUNT + 6;
+
+	/**
+	 * The feature id for the '<em><b>Package Name</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int CLASS_COVERAGE__PACKAGE_NAME = SOURCE_COVERAGE_FEATURE_COUNT + 7;
+
+	/**
 	 * The number of structural features of the '<em>Class Coverage</em>' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int CLASS_COVERAGE_FEATURE_COUNT = SOURCE_COVERAGE_FEATURE_COUNT + 6;
+	int CLASS_COVERAGE_FEATURE_COUNT = SOURCE_COVERAGE_FEATURE_COUNT + 8;
 
 	/**
 	 * The number of operations of the '<em>Class Coverage</em>' class.
@@ -1371,6 +1389,28 @@ public interface CoveragePackage extends EPackage {
 	EAttribute getClassCoverage_NoMatch();
 
 	/**
+	 * Returns the meta object for the attribute '{@link org.nasdanika.models.coverage.ClassCoverage#getSourceFile <em>Source File</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Source File</em>'.
+	 * @see org.nasdanika.models.coverage.ClassCoverage#getSourceFile()
+	 * @see #getClassCoverage()
+	 * @generated
+	 */
+	EAttribute getClassCoverage_SourceFile();
+
+	/**
+	 * Returns the meta object for the attribute '{@link org.nasdanika.models.coverage.ClassCoverage#getPackageName <em>Package Name</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Package Name</em>'.
+	 * @see org.nasdanika.models.coverage.ClassCoverage#getPackageName()
+	 * @see #getClassCoverage()
+	 * @generated
+	 */
+	EAttribute getClassCoverage_PackageName();
+
+	/**
 	 * Returns the meta object for class '{@link org.nasdanika.models.coverage.MethodCoverage <em>Method Coverage</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -1700,6 +1740,20 @@ public interface CoveragePackage extends EPackage {
 		 * @generated
 		 */
 		EAttribute CLASS_COVERAGE__NO_MATCH = eINSTANCE.getClassCoverage_NoMatch();
+		/**
+		 * The meta object literal for the '<em><b>Source File</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute CLASS_COVERAGE__SOURCE_FILE = eINSTANCE.getClassCoverage_SourceFile();
+		/**
+		 * The meta object literal for the '<em><b>Package Name</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute CLASS_COVERAGE__PACKAGE_NAME = eINSTANCE.getClassCoverage_PackageName();
 		/**
 		 * The meta object literal for the '{@link org.nasdanika.models.coverage.impl.MethodCoverageImpl <em>Method Coverage</em>}' class.
 		 * <!-- begin-user-doc -->

@@ -49,13 +49,14 @@
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference coverage.ecore#//ClassCoverage/methods"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute coverage.ecore#//ClassCoverage/signature"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute coverage.ecore#//ClassCoverage/noMatch"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute coverage.ecore#//ClassCoverage/sourceFile"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute coverage.ecore#//ClassCoverage/packageName"/>
     </genClasses>
     <genClasses ecoreClass="coverage.ecore#//MethodCoverage">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute coverage.ecore#//MethodCoverage/description"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute coverage.ecore#//MethodCoverage/signature"/>
-      <genFeatures createChild="false" ecoreFeature="ecore:EReference coverage.ecore#//MethodCoverage/parameterTypes"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute coverage.ecore#//MethodCoverage/parameterTypes"/>
     </genClasses>
     <genClasses ecoreClass="coverage.ecore#//SourceFileCoverage"/>
-    <genClasses ecoreClass="coverage.ecore#//Type"/>
   </genPackages>
 </genmodel:GenModel>

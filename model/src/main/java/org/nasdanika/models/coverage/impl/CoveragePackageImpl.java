@@ -497,6 +497,26 @@ public class CoveragePackageImpl extends EPackageImpl implements CoveragePackage
 	 * @generated
 	 */
 	@Override
+	public EAttribute getClassCoverage_SourceFile() {
+		return (EAttribute)classCoverageEClass.getEStructuralFeatures().get(6);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public EAttribute getClassCoverage_PackageName() {
+		return (EAttribute)classCoverageEClass.getEStructuralFeatures().get(7);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
 	public EClass getMethodCoverage() {
 		return methodCoverageEClass;
 	}
@@ -611,6 +631,8 @@ public class CoveragePackageImpl extends EPackageImpl implements CoveragePackage
 		createEReference(classCoverageEClass, CLASS_COVERAGE__METHODS);
 		createEAttribute(classCoverageEClass, CLASS_COVERAGE__SIGNATURE);
 		createEAttribute(classCoverageEClass, CLASS_COVERAGE__NO_MATCH);
+		createEAttribute(classCoverageEClass, CLASS_COVERAGE__SOURCE_FILE);
+		createEAttribute(classCoverageEClass, CLASS_COVERAGE__PACKAGE_NAME);
 
 		methodCoverageEClass = createEClass(METHOD_COVERAGE);
 		createEAttribute(methodCoverageEClass, METHOD_COVERAGE__DESCRIPTION);
@@ -697,6 +719,8 @@ public class CoveragePackageImpl extends EPackageImpl implements CoveragePackage
 		initEReference(getClassCoverage_Methods(), this.getMethodCoverage(), null, "methods", null, 0, -1, ClassCoverage.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEAttribute(getClassCoverage_Signature(), ecorePackage.getEString(), "signature", null, 0, 1, ClassCoverage.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEAttribute(getClassCoverage_NoMatch(), ecorePackage.getEBoolean(), "noMatch", null, 0, 1, ClassCoverage.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEAttribute(getClassCoverage_SourceFile(), ecorePackage.getEString(), "sourceFile", null, 0, 1, ClassCoverage.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEAttribute(getClassCoverage_PackageName(), ecorePackage.getEString(), "packageName", null, 0, 1, ClassCoverage.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		initEClass(methodCoverageEClass, MethodCoverage.class, "MethodCoverage", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 		initEAttribute(getMethodCoverage_Description(), ecorePackage.getEString(), "description", null, 0, 1, MethodCoverage.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);

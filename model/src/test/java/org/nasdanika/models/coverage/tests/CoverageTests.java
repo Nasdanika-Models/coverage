@@ -24,7 +24,7 @@ public class CoverageTests {
 	
 	@Test
 	public void testLoadExecCoverage() throws Exception {
-		File target = new File("..\\..\\..\\git\\core\\graph\\target").getCanonicalFile();
+		File target = new File("testData/target").getCanonicalFile();
 		File jacocoExec = new File(target, "jacoco.exec");
 		ResourceSet rs = new ResourceSetImpl();
 		rs.getResourceFactoryRegistry().getExtensionToFactoryMap().put(Resource.Factory.Registry.DEFAULT_EXTENSION, new XMIResourceFactoryImpl());
@@ -38,7 +38,7 @@ public class CoverageTests {
 	
 	@Test
 	public void testGenerateReportCoverage() throws Exception {
-		File target = new File("..\\..\\..\\git\\core\\graph\\target").getCanonicalFile();
+		File target = new File("testData/target").getCanonicalFile();
 		File jacocoExec = new File(target, "jacoco.exec");
 
 		ExecFileLoader execFileLoader = new ExecFileLoader();
