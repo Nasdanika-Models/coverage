@@ -1,6 +1,6 @@
 [
     {
-        "identifiers": ["uuid:6447b38b-79cb-4da8-9ff8-75e834230c3d"],
+        "identifiers": ["uuid:65152b68-2593-4834-b976-c42196edcdbb"],
         "name": "Nasdanika Models",
         "icon": "https://docs.nasdanika.org/images/nasdanika-logo.png",
         "location": "https://github.com/Nasdanika-Models",
@@ -12,9 +12,9 @@
     {
         "container": {
             "reference": "children",
-            "identifiers": ["uuid:6447b38b-79cb-4da8-9ff8-75e834230c3d"]
+            "identifiers": ["uuid:65152b68-2593-4834-b976-c42196edcdbb"]
         },
-        "identifiers": ["uuid:922cddaa-86cd-45ce-a8a9-f616e5f66c9d"],
+        "identifiers": ["uuid:4788194d-b227-4e20-9886-e8851000da4d"],
         "name": "Search",
         "icon": "fas fa-search",
         "location": "search.html",
@@ -26,9 +26,9 @@
     {
         "container": {
             "reference": "children",
-            "identifiers": ["uuid:6447b38b-79cb-4da8-9ff8-75e834230c3d"]
+            "identifiers": ["uuid:65152b68-2593-4834-b976-c42196edcdbb"]
         },
-        "identifiers": ["uuid:8e519083-711e-463d-a9fe-9c51bfaddf38"],
+        "identifiers": ["uuid:4298a13c-ed88-4506-a2d0-a6e868f0f534"],
         "name": "Glossary",
         "icon": "fas fa-book",
         "location": "glossary.html",
@@ -40,9 +40,9 @@
     {
         "container": {
             "reference": "navigation",
-            "identifiers": ["uuid:6447b38b-79cb-4da8-9ff8-75e834230c3d"]
+            "identifiers": ["uuid:65152b68-2593-4834-b976-c42196edcdbb"]
         },
-        "identifiers": ["uuid:42655d6b-b8c0-4d86-a251-07e9cadeaa42"],
+        "identifiers": ["uuid:8d3a0c34-7627-47e7-b8cc-6bb1f90b3512"],
         "name": "Sources",
         "icon": "fab fa-github",
         "location": "https://github.com/Nasdanika-Models/coverage",
@@ -78,9 +78,9 @@
     {
         "container": {
             "reference": "decorator",
-            "identifiers": ["uuid:3a4bf5ba-2bd7-421c-b24a-381a0442a246"]
+            "identifiers": ["uuid:810bcfe8-a3ac-4e36-9fed-af3d9bbcec1d"]
         },
-        "identifiers": ["uuid:b5c76ddd-c504-47df-8443-62907a2ec762"],
+        "identifiers": ["uuid:fb9246ae-40b4-4477-82e3-55e0281570bd"],
         "icon": "far fa-question-circle",
         "type": {
             "name": "Link",
@@ -90,9 +90,9 @@
     {
         "container": {
             "reference": "navigation",
-            "identifiers": ["uuid:3a4bf5ba-2bd7-421c-b24a-381a0442a246"]
+            "identifiers": ["uuid:810bcfe8-a3ac-4e36-9fed-af3d9bbcec1d"]
         },
-        "identifiers": ["uuid:c157cc3f-811b-4233-a2af-fe9a3d5c9900"],
+        "identifiers": ["uuid:c7f86a2d-321b-4b2c-8d26-a283d951bddf"],
         "name": "Attributes",
         "icon": "https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EAttribute.gif",
         "location": "references/eClassifiers/ClassCoverage/attributes.html",
@@ -104,9 +104,9 @@
     {
         "container": {
             "reference": "navigation",
-            "identifiers": ["uuid:3a4bf5ba-2bd7-421c-b24a-381a0442a246"]
+            "identifiers": ["uuid:810bcfe8-a3ac-4e36-9fed-af3d9bbcec1d"]
         },
-        "identifiers": ["uuid:b1f47b5b-955c-4b54-8fe5-3d8396b09da6"],
+        "identifiers": ["uuid:c75c672f-1022-4567-a5a0-1b85becbd940"],
         "name": "Inheritance",
         "icon": "https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EGenericSuperType.gif",
         "location": "references/eClassifiers/ClassCoverage/inheritance.html",
@@ -118,11 +118,11 @@
     {
         "container": {
             "reference": "sections",
-            "identifiers": ["uuid:b1f47b5b-955c-4b54-8fe5-3d8396b09da6"]
+            "identifiers": ["uuid:c75c672f-1022-4567-a5a0-1b85becbd940"]
         },
-        "identifiers": ["uuid:adeeee51-af71-4327-8ea5-0269e0417264"],
+        "identifiers": ["uuid:c0ff1a3a-5cff-4d72-b812-05c2ab52cdd3"],
         "name": "Supertypes",
-        "location": "references/eClassifiers/ClassCoverage/inheritance.html#uuid-adeeee51-af71-4327-8ea5-0269e0417264",
+        "location": "references/eClassifiers/ClassCoverage/inheritance.html#uuid-c0ff1a3a-5cff-4d72-b812-05c2ab52cdd3",
         "type": {
             "name": "Action",
             "ns-uri": "ecore://nasdanika.org/html/app"
@@ -131,9 +131,9 @@
     {
         "container": {
             "reference": "navigation",
-            "identifiers": ["uuid:3a4bf5ba-2bd7-421c-b24a-381a0442a246"]
+            "identifiers": ["uuid:810bcfe8-a3ac-4e36-9fed-af3d9bbcec1d"]
         },
-        "identifiers": ["uuid:141b0113-95ae-4788-bbf5-a0efa8910a08"],
+        "identifiers": ["uuid:a63926a9-4ad4-4b30-8f73-4c464b7af32e"],
         "name": "References",
         "icon": "https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EReference.gif",
         "location": "references/eClassifiers/ClassCoverage/references.html",
@@ -145,9 +145,9 @@
     {
         "container": {
             "reference": "navigation",
-            "identifiers": ["uuid:3a4bf5ba-2bd7-421c-b24a-381a0442a246"]
+            "identifiers": ["uuid:810bcfe8-a3ac-4e36-9fed-af3d9bbcec1d"]
         },
-        "identifiers": ["uuid:bcc8ce1f-1cf7-43b6-bf55-3a85c33c3f88"],
+        "identifiers": ["uuid:4f2447ce-23dd-4573-b886-2354f445d97e"],
         "name": "Diagram",
         "icon": "fas fa-project-diagram",
         "location": "references/eClassifiers/ClassCoverage/diagram.html",
@@ -159,9 +159,9 @@
     {
         "container": {
             "reference": "navigation",
-            "identifiers": ["uuid:3a4bf5ba-2bd7-421c-b24a-381a0442a246"]
+            "identifiers": ["uuid:810bcfe8-a3ac-4e36-9fed-af3d9bbcec1d"]
         },
-        "identifiers": ["uuid:882e8bde-0170-4fdb-8dad-4d01ffe8f19d"],
+        "identifiers": ["uuid:20f7fbaf-c0a0-4be8-a4e0-70829678b386"],
         "name": "Graphs",
         "icon": "https://img.icons8.com/external-dreamstale-lineal-dreamstale/16/external-diagram-seo-media-dreamstale-lineal-dreamstale.png",
         "type": {
@@ -172,9 +172,9 @@
     {
         "container": {
             "reference": "children",
-            "identifiers": ["uuid:882e8bde-0170-4fdb-8dad-4d01ffe8f19d"]
+            "identifiers": ["uuid:20f7fbaf-c0a0-4be8-a4e0-70829678b386"]
         },
-        "identifiers": ["uuid:7013a989-9436-464d-b8c1-2a2ca212450a"],
+        "identifiers": ["uuid:33392274-7f79-4c21-b780-7a9120c8dd78"],
         "name": "Default Graph",
         "location": "references/eClassifiers/ClassCoverage/default-graph.html",
         "type": {
@@ -185,9 +185,9 @@
     {
         "container": {
             "reference": "decorator",
-            "identifiers": ["uuid:7013a989-9436-464d-b8c1-2a2ca212450a"]
+            "identifiers": ["uuid:33392274-7f79-4c21-b780-7a9120c8dd78"]
         },
-        "identifiers": ["uuid:c805afbc-7e68-49e3-8b47-0a6ec519e59d"],
+        "identifiers": ["uuid:98aa6630-4dd4-4249-a49b-a92eef663ccd"],
         "icon": "far fa-question-circle",
         "description": "A fixed force-layout graph of this classifier and related classifiers showing relationships between them",
         "type": {
@@ -198,9 +198,9 @@
     {
         "container": {
             "reference": "children",
-            "identifiers": ["uuid:882e8bde-0170-4fdb-8dad-4d01ffe8f19d"]
+            "identifiers": ["uuid:20f7fbaf-c0a0-4be8-a4e0-70829678b386"]
         },
-        "identifiers": ["uuid:df3b6e06-f5c4-43ae-8910-67f95dadef2b"],
+        "identifiers": ["uuid:4e45b369-3ff5-4860-9abc-57f10d00a91c"],
         "name": "Circular Graph",
         "location": "references/eClassifiers/ClassCoverage/circular-layout-graph.html",
         "type": {
@@ -211,9 +211,9 @@
     {
         "container": {
             "reference": "decorator",
-            "identifiers": ["uuid:df3b6e06-f5c4-43ae-8910-67f95dadef2b"]
+            "identifiers": ["uuid:4e45b369-3ff5-4860-9abc-57f10d00a91c"]
         },
-        "identifiers": ["uuid:4e1eb041-bbbd-459d-a96b-658c1292563d"],
+        "identifiers": ["uuid:7992c36e-7e47-4854-ab08-59f76c0d5724"],
         "icon": "far fa-question-circle",
         "description": "A circular layout graph of this classifier and related classifiers showing relationships between them",
         "type": {
@@ -224,9 +224,9 @@
     {
         "container": {
             "reference": "children",
-            "identifiers": ["uuid:882e8bde-0170-4fdb-8dad-4d01ffe8f19d"]
+            "identifiers": ["uuid:20f7fbaf-c0a0-4be8-a4e0-70829678b386"]
         },
-        "identifiers": ["uuid:95290261-a3fa-4457-bb69-2f89482ac5de"],
+        "identifiers": ["uuid:d6ef5cb3-573a-49c3-badd-8949bc170661"],
         "name": "Force Graph",
         "location": "references/eClassifiers/ClassCoverage/force-layout-graph.html",
         "type": {
@@ -237,9 +237,9 @@
     {
         "container": {
             "reference": "decorator",
-            "identifiers": ["uuid:95290261-a3fa-4457-bb69-2f89482ac5de"]
+            "identifiers": ["uuid:d6ef5cb3-573a-49c3-badd-8949bc170661"]
         },
-        "identifiers": ["uuid:7106f159-569f-4070-b724-db5f49e98589"],
+        "identifiers": ["uuid:f97abf2a-7f60-48f5-955a-0c4f62a56d25"],
         "icon": "far fa-question-circle",
         "description": "A live force-layout graph of this classifier and related classifiers showing relationships between them",
         "type": {
@@ -250,9 +250,9 @@
     {
         "container": {
             "reference": "decorator",
-            "identifiers": ["uuid:882e8bde-0170-4fdb-8dad-4d01ffe8f19d"]
+            "identifiers": ["uuid:20f7fbaf-c0a0-4be8-a4e0-70829678b386"]
         },
-        "identifiers": ["uuid:89a7ea6f-224d-4d15-8ec2-c20b349c991f"],
+        "identifiers": ["uuid:57433be2-fa51-4f26-b428-48c23e8aed8a"],
         "icon": "far fa-question-circle",
         "description": "Graphs of package classifiers showing relationships between them",
         "type": {
@@ -263,9 +263,9 @@
     {
         "container": {
             "reference": "navigation",
-            "identifiers": ["uuid:3a4bf5ba-2bd7-421c-b24a-381a0442a246"]
+            "identifiers": ["uuid:810bcfe8-a3ac-4e36-9fed-af3d9bbcec1d"]
         },
-        "identifiers": ["uuid:db441b2d-aa83-40ad-bc0e-456ee2a3b3e9"],
+        "identifiers": ["uuid:87813706-ba6a-4a8d-999a-5ce68e852b4b"],
         "name": "Load specification",
         "location": "references/eClassifiers/ClassCoverage/load-specification.html",
         "type": {
@@ -290,9 +290,9 @@
     {
         "container": {
             "reference": "decorator",
-            "identifiers": ["uuid:a50719b6-69e9-437c-bb2b-4d736475c1ea"]
+            "identifiers": ["uuid:6cc782ff-0574-445b-bc37-c0855692ecb4"]
         },
-        "identifiers": ["uuid:3d3f5933-1a84-46c2-9288-56457f9b25ab"],
+        "identifiers": ["uuid:f422130b-d7d7-480c-a937-a978f2910aa5"],
         "icon": "far fa-question-circle",
         "type": {
             "name": "Link",
@@ -302,9 +302,9 @@
     {
         "container": {
             "reference": "navigation",
-            "identifiers": ["uuid:a50719b6-69e9-437c-bb2b-4d736475c1ea"]
+            "identifiers": ["uuid:6cc782ff-0574-445b-bc37-c0855692ecb4"]
         },
-        "identifiers": ["uuid:7c94fca8-2733-45c7-833e-33c1b5e65480"],
+        "identifiers": ["uuid:fdaac9fd-54fc-4e69-870a-00f1be2431ed"],
         "name": "Attributes",
         "icon": "https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EAttribute.gif",
         "location": "references/eClassifiers/Counter/attributes.html",
@@ -316,9 +316,9 @@
     {
         "container": {
             "reference": "navigation",
-            "identifiers": ["uuid:a50719b6-69e9-437c-bb2b-4d736475c1ea"]
+            "identifiers": ["uuid:6cc782ff-0574-445b-bc37-c0855692ecb4"]
         },
-        "identifiers": ["uuid:8c1303d3-fa3c-4369-a1cf-ba3cba6e4b9d"],
+        "identifiers": ["uuid:2ce95f0b-30ee-4c57-971d-32225b2cced0"],
         "name": "Diagram",
         "icon": "fas fa-project-diagram",
         "location": "references/eClassifiers/Counter/diagram.html",
@@ -330,9 +330,9 @@
     {
         "container": {
             "reference": "navigation",
-            "identifiers": ["uuid:a50719b6-69e9-437c-bb2b-4d736475c1ea"]
+            "identifiers": ["uuid:6cc782ff-0574-445b-bc37-c0855692ecb4"]
         },
-        "identifiers": ["uuid:639c7b14-35ab-4f2c-b569-6c0debd16ebf"],
+        "identifiers": ["uuid:0261057c-8145-4c10-803b-d242ecfa6453"],
         "name": "Graphs",
         "icon": "https://img.icons8.com/external-dreamstale-lineal-dreamstale/16/external-diagram-seo-media-dreamstale-lineal-dreamstale.png",
         "type": {
@@ -343,9 +343,9 @@
     {
         "container": {
             "reference": "children",
-            "identifiers": ["uuid:639c7b14-35ab-4f2c-b569-6c0debd16ebf"]
+            "identifiers": ["uuid:0261057c-8145-4c10-803b-d242ecfa6453"]
         },
-        "identifiers": ["uuid:c3b89109-e64c-4d8b-b9a8-6681dfabf354"],
+        "identifiers": ["uuid:3ab66efb-c9ff-4cb0-9021-88756468c9e8"],
         "name": "Default Graph",
         "location": "references/eClassifiers/Counter/default-graph.html",
         "type": {
@@ -356,9 +356,9 @@
     {
         "container": {
             "reference": "decorator",
-            "identifiers": ["uuid:c3b89109-e64c-4d8b-b9a8-6681dfabf354"]
+            "identifiers": ["uuid:3ab66efb-c9ff-4cb0-9021-88756468c9e8"]
         },
-        "identifiers": ["uuid:6f676d5f-f0bd-46bd-bb97-f1f50e113508"],
+        "identifiers": ["uuid:e021a713-0e9c-441e-8ea6-0a215fbd7307"],
         "icon": "far fa-question-circle",
         "description": "A fixed force-layout graph of this classifier and related classifiers showing relationships between them",
         "type": {
@@ -369,9 +369,9 @@
     {
         "container": {
             "reference": "children",
-            "identifiers": ["uuid:639c7b14-35ab-4f2c-b569-6c0debd16ebf"]
+            "identifiers": ["uuid:0261057c-8145-4c10-803b-d242ecfa6453"]
         },
-        "identifiers": ["uuid:ec1e1c63-7885-4218-97c4-9345f9c9ccd9"],
+        "identifiers": ["uuid:074b793a-f34d-4e11-93f4-c4168284e2af"],
         "name": "Circular Graph",
         "location": "references/eClassifiers/Counter/circular-layout-graph.html",
         "type": {
@@ -382,9 +382,9 @@
     {
         "container": {
             "reference": "decorator",
-            "identifiers": ["uuid:ec1e1c63-7885-4218-97c4-9345f9c9ccd9"]
+            "identifiers": ["uuid:074b793a-f34d-4e11-93f4-c4168284e2af"]
         },
-        "identifiers": ["uuid:3aa0e439-8ef3-43a9-95d0-4838b6dab1bc"],
+        "identifiers": ["uuid:2ceb6106-4892-44e1-bbb0-29d54b7d174f"],
         "icon": "far fa-question-circle",
         "description": "A circular layout graph of this classifier and related classifiers showing relationships between them",
         "type": {
@@ -395,9 +395,9 @@
     {
         "container": {
             "reference": "children",
-            "identifiers": ["uuid:639c7b14-35ab-4f2c-b569-6c0debd16ebf"]
+            "identifiers": ["uuid:0261057c-8145-4c10-803b-d242ecfa6453"]
         },
-        "identifiers": ["uuid:9bd21d12-c2c2-4b95-abd8-8cc08de854d0"],
+        "identifiers": ["uuid:a21b6973-4150-4e1c-9858-4afa12720860"],
         "name": "Force Graph",
         "location": "references/eClassifiers/Counter/force-layout-graph.html",
         "type": {
@@ -408,9 +408,9 @@
     {
         "container": {
             "reference": "decorator",
-            "identifiers": ["uuid:9bd21d12-c2c2-4b95-abd8-8cc08de854d0"]
+            "identifiers": ["uuid:a21b6973-4150-4e1c-9858-4afa12720860"]
         },
-        "identifiers": ["uuid:7ea4f308-6662-4740-8a67-3aecd021479e"],
+        "identifiers": ["uuid:cc3d324d-f4f0-4307-b39b-f9e3da9660c2"],
         "icon": "far fa-question-circle",
         "description": "A live force-layout graph of this classifier and related classifiers showing relationships between them",
         "type": {
@@ -421,9 +421,9 @@
     {
         "container": {
             "reference": "decorator",
-            "identifiers": ["uuid:639c7b14-35ab-4f2c-b569-6c0debd16ebf"]
+            "identifiers": ["uuid:0261057c-8145-4c10-803b-d242ecfa6453"]
         },
-        "identifiers": ["uuid:2b3d8016-3b17-4ca0-9f5b-c6ec3b03efb1"],
+        "identifiers": ["uuid:37bfff73-d061-44b1-ac06-9aa356542938"],
         "icon": "far fa-question-circle",
         "description": "Graphs of package classifiers showing relationships between them",
         "type": {
@@ -434,9 +434,9 @@
     {
         "container": {
             "reference": "navigation",
-            "identifiers": ["uuid:a50719b6-69e9-437c-bb2b-4d736475c1ea"]
+            "identifiers": ["uuid:6cc782ff-0574-445b-bc37-c0855692ecb4"]
         },
-        "identifiers": ["uuid:df16b0c7-ac16-4241-a1ce-35fa9ccf142e"],
+        "identifiers": ["uuid:b75d64e5-d98b-4e6d-beac-b99dd5d47c9c"],
         "name": "Load specification",
         "location": "references/eClassifiers/Counter/load-specification.html",
         "type": {
@@ -461,9 +461,9 @@
     {
         "container": {
             "reference": "decorator",
-            "identifiers": ["uuid:0a228a43-5c70-4b1b-b880-4620f105544b"]
+            "identifiers": ["uuid:48196214-e6d9-4c2a-a9be-eb9a59e61b95"]
         },
-        "identifiers": ["uuid:c60e3ae1-3aaa-4cdb-8b29-9811ebbc33f4"],
+        "identifiers": ["uuid:dac15506-d05e-40f3-9f58-3d3d80931398"],
         "icon": "far fa-question-circle",
         "type": {
             "name": "Link",
@@ -473,9 +473,9 @@
     {
         "container": {
             "reference": "navigation",
-            "identifiers": ["uuid:0a228a43-5c70-4b1b-b880-4620f105544b"]
+            "identifiers": ["uuid:48196214-e6d9-4c2a-a9be-eb9a59e61b95"]
         },
-        "identifiers": ["uuid:1fb4db0b-08d7-4ab7-92b5-ffa47e53df8b"],
+        "identifiers": ["uuid:41333e7a-5490-4961-81e4-e883c1303a7d"],
         "name": "Attributes",
         "icon": "https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EAttribute.gif",
         "location": "references/eClassifiers/Coverage/attributes.html",
@@ -487,9 +487,9 @@
     {
         "container": {
             "reference": "navigation",
-            "identifiers": ["uuid:0a228a43-5c70-4b1b-b880-4620f105544b"]
+            "identifiers": ["uuid:48196214-e6d9-4c2a-a9be-eb9a59e61b95"]
         },
-        "identifiers": ["uuid:de71aeb4-0d87-49b5-aee7-e11de53eb06c"],
+        "identifiers": ["uuid:130a9952-85e8-4b0a-bbe1-f8153f45d501"],
         "name": "References",
         "icon": "https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EReference.gif",
         "location": "references/eClassifiers/Coverage/references.html",
@@ -501,9 +501,9 @@
     {
         "container": {
             "reference": "navigation",
-            "identifiers": ["uuid:0a228a43-5c70-4b1b-b880-4620f105544b"]
+            "identifiers": ["uuid:48196214-e6d9-4c2a-a9be-eb9a59e61b95"]
         },
-        "identifiers": ["uuid:4f2e8308-9067-4797-aeb6-f80660942d73"],
+        "identifiers": ["uuid:2557d22c-f313-44fc-bcc5-f2d9aa9b350d"],
         "name": "Inheritance",
         "icon": "https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EGenericSuperType.gif",
         "location": "references/eClassifiers/Coverage/inheritance.html",
@@ -515,11 +515,11 @@
     {
         "container": {
             "reference": "sections",
-            "identifiers": ["uuid:4f2e8308-9067-4797-aeb6-f80660942d73"]
+            "identifiers": ["uuid:2557d22c-f313-44fc-bcc5-f2d9aa9b350d"]
         },
-        "identifiers": ["uuid:f09b2ee9-0205-40e6-8467-3c9403092af1"],
+        "identifiers": ["uuid:28b2e7a2-13ef-4b4b-9b5e-3201513c773f"],
         "name": "Subtypes",
-        "location": "references/eClassifiers/Coverage/inheritance.html#uuid-f09b2ee9-0205-40e6-8467-3c9403092af1",
+        "location": "references/eClassifiers/Coverage/inheritance.html#uuid-28b2e7a2-13ef-4b4b-9b5e-3201513c773f",
         "type": {
             "name": "Action",
             "ns-uri": "ecore://nasdanika.org/html/app"
@@ -528,9 +528,9 @@
     {
         "container": {
             "reference": "navigation",
-            "identifiers": ["uuid:0a228a43-5c70-4b1b-b880-4620f105544b"]
+            "identifiers": ["uuid:48196214-e6d9-4c2a-a9be-eb9a59e61b95"]
         },
-        "identifiers": ["uuid:ce6a55e9-cc3f-4d0f-89c5-2998f908af16"],
+        "identifiers": ["uuid:7e925187-9a6b-4f66-8b60-d378c6f80dfe"],
         "name": "Diagram",
         "icon": "fas fa-project-diagram",
         "location": "references/eClassifiers/Coverage/diagram.html",
@@ -542,9 +542,9 @@
     {
         "container": {
             "reference": "navigation",
-            "identifiers": ["uuid:0a228a43-5c70-4b1b-b880-4620f105544b"]
+            "identifiers": ["uuid:48196214-e6d9-4c2a-a9be-eb9a59e61b95"]
         },
-        "identifiers": ["uuid:1cc1cb16-e1df-4b09-bec0-24fc9f7b3789"],
+        "identifiers": ["uuid:03fa33f4-aed1-4c48-a580-538b94978fdd"],
         "name": "Graphs",
         "icon": "https://img.icons8.com/external-dreamstale-lineal-dreamstale/16/external-diagram-seo-media-dreamstale-lineal-dreamstale.png",
         "type": {
@@ -555,9 +555,9 @@
     {
         "container": {
             "reference": "children",
-            "identifiers": ["uuid:1cc1cb16-e1df-4b09-bec0-24fc9f7b3789"]
+            "identifiers": ["uuid:03fa33f4-aed1-4c48-a580-538b94978fdd"]
         },
-        "identifiers": ["uuid:a526d0e4-930c-4ca5-a1d2-a39d27543c4e"],
+        "identifiers": ["uuid:e8054ec9-b7fb-49e7-877d-daee65ed0081"],
         "name": "Default Graph",
         "location": "references/eClassifiers/Coverage/default-graph.html",
         "type": {
@@ -568,9 +568,9 @@
     {
         "container": {
             "reference": "decorator",
-            "identifiers": ["uuid:a526d0e4-930c-4ca5-a1d2-a39d27543c4e"]
+            "identifiers": ["uuid:e8054ec9-b7fb-49e7-877d-daee65ed0081"]
         },
-        "identifiers": ["uuid:ca404b50-086e-4be8-9cd0-a9af4344e7e5"],
+        "identifiers": ["uuid:fcc99193-8687-4a55-93c7-93c44aa53e9c"],
         "icon": "far fa-question-circle",
         "description": "A fixed force-layout graph of this classifier and related classifiers showing relationships between them",
         "type": {
@@ -581,9 +581,9 @@
     {
         "container": {
             "reference": "children",
-            "identifiers": ["uuid:1cc1cb16-e1df-4b09-bec0-24fc9f7b3789"]
+            "identifiers": ["uuid:03fa33f4-aed1-4c48-a580-538b94978fdd"]
         },
-        "identifiers": ["uuid:15e52bf9-7591-4e77-b126-bb860991465f"],
+        "identifiers": ["uuid:201db5df-fe46-4cd2-ab7d-24aea0de663f"],
         "name": "Circular Graph",
         "location": "references/eClassifiers/Coverage/circular-layout-graph.html",
         "type": {
@@ -594,9 +594,9 @@
     {
         "container": {
             "reference": "decorator",
-            "identifiers": ["uuid:15e52bf9-7591-4e77-b126-bb860991465f"]
+            "identifiers": ["uuid:201db5df-fe46-4cd2-ab7d-24aea0de663f"]
         },
-        "identifiers": ["uuid:30ef38c2-4b7a-4af5-88e5-05399c9b2a1d"],
+        "identifiers": ["uuid:c4f15438-6128-4cf4-8678-102ecc04925c"],
         "icon": "far fa-question-circle",
         "description": "A circular layout graph of this classifier and related classifiers showing relationships between them",
         "type": {
@@ -607,9 +607,9 @@
     {
         "container": {
             "reference": "children",
-            "identifiers": ["uuid:1cc1cb16-e1df-4b09-bec0-24fc9f7b3789"]
+            "identifiers": ["uuid:03fa33f4-aed1-4c48-a580-538b94978fdd"]
         },
-        "identifiers": ["uuid:efbd1580-9f8f-458f-80b4-46ef5f24ab46"],
+        "identifiers": ["uuid:77f2f60f-3483-4c4e-a506-48481f5521b1"],
         "name": "Force Graph",
         "location": "references/eClassifiers/Coverage/force-layout-graph.html",
         "type": {
@@ -620,9 +620,9 @@
     {
         "container": {
             "reference": "decorator",
-            "identifiers": ["uuid:efbd1580-9f8f-458f-80b4-46ef5f24ab46"]
+            "identifiers": ["uuid:77f2f60f-3483-4c4e-a506-48481f5521b1"]
         },
-        "identifiers": ["uuid:0c0a68a1-8e53-47ee-ac4e-4cde5d937ae3"],
+        "identifiers": ["uuid:2d643d8b-8e73-4411-b11a-8ffd34441432"],
         "icon": "far fa-question-circle",
         "description": "A live force-layout graph of this classifier and related classifiers showing relationships between them",
         "type": {
@@ -633,9 +633,9 @@
     {
         "container": {
             "reference": "decorator",
-            "identifiers": ["uuid:1cc1cb16-e1df-4b09-bec0-24fc9f7b3789"]
+            "identifiers": ["uuid:03fa33f4-aed1-4c48-a580-538b94978fdd"]
         },
-        "identifiers": ["uuid:02ffae85-2491-4b7e-b069-716707296d0f"],
+        "identifiers": ["uuid:7ed04d7d-5d60-453e-b956-162e6c31f129"],
         "icon": "far fa-question-circle",
         "description": "Graphs of package classifiers showing relationships between them",
         "type": {
@@ -646,9 +646,9 @@
     {
         "container": {
             "reference": "navigation",
-            "identifiers": ["uuid:0a228a43-5c70-4b1b-b880-4620f105544b"]
+            "identifiers": ["uuid:48196214-e6d9-4c2a-a9be-eb9a59e61b95"]
         },
-        "identifiers": ["uuid:38d19724-6913-4fa6-83d7-f761a1061528"],
+        "identifiers": ["uuid:5f8cadf0-dc0b-4d92-81ac-32b19f112b03"],
         "name": "Load specification",
         "location": "references/eClassifiers/Coverage/load-specification.html",
         "type": {
@@ -673,9 +673,9 @@
     {
         "container": {
             "reference": "decorator",
-            "identifiers": ["uuid:4a1cc0ae-1310-4deb-a22d-bf458f426fcf"]
+            "identifiers": ["uuid:f585ac08-c40d-4c24-83f7-d3034d4589dd"]
         },
-        "identifiers": ["uuid:f7df7188-d710-4fbd-92c2-473cd20255d4"],
+        "identifiers": ["uuid:debb0aec-2ff3-49b0-9f70-f9f5924bcb1c"],
         "icon": "far fa-question-circle",
         "type": {
             "name": "Link",
@@ -685,9 +685,9 @@
     {
         "container": {
             "reference": "navigation",
-            "identifiers": ["uuid:4a1cc0ae-1310-4deb-a22d-bf458f426fcf"]
+            "identifiers": ["uuid:f585ac08-c40d-4c24-83f7-d3034d4589dd"]
         },
-        "identifiers": ["uuid:76bb62f7-7e9e-43fa-84dd-8db4e3c628d8"],
+        "identifiers": ["uuid:8ce4acd9-c20e-4783-b1c4-d456aabf80fd"],
         "name": "Attributes",
         "icon": "https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EAttribute.gif",
         "location": "references/eClassifiers/Line/attributes.html",
@@ -699,9 +699,9 @@
     {
         "container": {
             "reference": "navigation",
-            "identifiers": ["uuid:4a1cc0ae-1310-4deb-a22d-bf458f426fcf"]
+            "identifiers": ["uuid:f585ac08-c40d-4c24-83f7-d3034d4589dd"]
         },
-        "identifiers": ["uuid:615ca3e0-cb1e-4690-87b2-1ad147af6f76"],
+        "identifiers": ["uuid:b0531c9b-6edc-4bbe-ab0b-bb83e366d4d9"],
         "name": "References",
         "icon": "https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EReference.gif",
         "location": "references/eClassifiers/Line/references.html",
@@ -713,9 +713,9 @@
     {
         "container": {
             "reference": "navigation",
-            "identifiers": ["uuid:4a1cc0ae-1310-4deb-a22d-bf458f426fcf"]
+            "identifiers": ["uuid:f585ac08-c40d-4c24-83f7-d3034d4589dd"]
         },
-        "identifiers": ["uuid:66534910-dd52-43c6-971f-9691a8190886"],
+        "identifiers": ["uuid:5ee61ec4-f240-4b70-95aa-f5698779124d"],
         "name": "Diagram",
         "icon": "fas fa-project-diagram",
         "location": "references/eClassifiers/Line/diagram.html",
@@ -727,9 +727,9 @@
     {
         "container": {
             "reference": "navigation",
-            "identifiers": ["uuid:4a1cc0ae-1310-4deb-a22d-bf458f426fcf"]
+            "identifiers": ["uuid:f585ac08-c40d-4c24-83f7-d3034d4589dd"]
         },
-        "identifiers": ["uuid:88b3fe26-69c7-4812-9dbb-3951a6369e1e"],
+        "identifiers": ["uuid:1887d087-8db9-4b19-a1a9-ed5b01ec50f0"],
         "name": "Graphs",
         "icon": "https://img.icons8.com/external-dreamstale-lineal-dreamstale/16/external-diagram-seo-media-dreamstale-lineal-dreamstale.png",
         "type": {
@@ -740,9 +740,9 @@
     {
         "container": {
             "reference": "children",
-            "identifiers": ["uuid:88b3fe26-69c7-4812-9dbb-3951a6369e1e"]
+            "identifiers": ["uuid:1887d087-8db9-4b19-a1a9-ed5b01ec50f0"]
         },
-        "identifiers": ["uuid:ca771f39-8579-4388-913e-c6b8d6d2b609"],
+        "identifiers": ["uuid:09574135-673c-4bb5-b7fc-54ca69294eee"],
         "name": "Default Graph",
         "location": "references/eClassifiers/Line/default-graph.html",
         "type": {
@@ -753,9 +753,9 @@
     {
         "container": {
             "reference": "decorator",
-            "identifiers": ["uuid:ca771f39-8579-4388-913e-c6b8d6d2b609"]
+            "identifiers": ["uuid:09574135-673c-4bb5-b7fc-54ca69294eee"]
         },
-        "identifiers": ["uuid:654c0e04-c7a5-4267-9cf3-81029969be1f"],
+        "identifiers": ["uuid:de4b05b7-aebd-4ed8-a8c5-483d062ed7c3"],
         "icon": "far fa-question-circle",
         "description": "A fixed force-layout graph of this classifier and related classifiers showing relationships between them",
         "type": {
@@ -766,9 +766,9 @@
     {
         "container": {
             "reference": "children",
-            "identifiers": ["uuid:88b3fe26-69c7-4812-9dbb-3951a6369e1e"]
+            "identifiers": ["uuid:1887d087-8db9-4b19-a1a9-ed5b01ec50f0"]
         },
-        "identifiers": ["uuid:1410b1f2-a85c-434e-a363-7076368c1291"],
+        "identifiers": ["uuid:316178a3-e769-4d1d-b95b-66e49c926f29"],
         "name": "Circular Graph",
         "location": "references/eClassifiers/Line/circular-layout-graph.html",
         "type": {
@@ -779,9 +779,9 @@
     {
         "container": {
             "reference": "decorator",
-            "identifiers": ["uuid:1410b1f2-a85c-434e-a363-7076368c1291"]
+            "identifiers": ["uuid:316178a3-e769-4d1d-b95b-66e49c926f29"]
         },
-        "identifiers": ["uuid:fb5171c3-5ad3-46e3-a328-5e8830a808f8"],
+        "identifiers": ["uuid:8ff1178f-afee-4203-9cac-d71157f4d33d"],
         "icon": "far fa-question-circle",
         "description": "A circular layout graph of this classifier and related classifiers showing relationships between them",
         "type": {
@@ -792,9 +792,9 @@
     {
         "container": {
             "reference": "children",
-            "identifiers": ["uuid:88b3fe26-69c7-4812-9dbb-3951a6369e1e"]
+            "identifiers": ["uuid:1887d087-8db9-4b19-a1a9-ed5b01ec50f0"]
         },
-        "identifiers": ["uuid:a0e1d709-9b08-4747-b2ae-c4e1d9068e7a"],
+        "identifiers": ["uuid:ebf84bd7-11a5-4ee0-9f9d-1fd74f1e1857"],
         "name": "Force Graph",
         "location": "references/eClassifiers/Line/force-layout-graph.html",
         "type": {
@@ -805,9 +805,9 @@
     {
         "container": {
             "reference": "decorator",
-            "identifiers": ["uuid:a0e1d709-9b08-4747-b2ae-c4e1d9068e7a"]
+            "identifiers": ["uuid:ebf84bd7-11a5-4ee0-9f9d-1fd74f1e1857"]
         },
-        "identifiers": ["uuid:cfba2b1c-a662-4ff7-9c30-66cc142036ea"],
+        "identifiers": ["uuid:bfea100e-41bd-4c4d-8467-28ed32820130"],
         "icon": "far fa-question-circle",
         "description": "A live force-layout graph of this classifier and related classifiers showing relationships between them",
         "type": {
@@ -818,9 +818,9 @@
     {
         "container": {
             "reference": "decorator",
-            "identifiers": ["uuid:88b3fe26-69c7-4812-9dbb-3951a6369e1e"]
+            "identifiers": ["uuid:1887d087-8db9-4b19-a1a9-ed5b01ec50f0"]
         },
-        "identifiers": ["uuid:df29393f-39b0-4509-a240-a65d170d7bea"],
+        "identifiers": ["uuid:4d160520-3c8c-4a29-b777-937d5601461d"],
         "icon": "far fa-question-circle",
         "description": "Graphs of package classifiers showing relationships between them",
         "type": {
@@ -831,9 +831,9 @@
     {
         "container": {
             "reference": "navigation",
-            "identifiers": ["uuid:4a1cc0ae-1310-4deb-a22d-bf458f426fcf"]
+            "identifiers": ["uuid:f585ac08-c40d-4c24-83f7-d3034d4589dd"]
         },
-        "identifiers": ["uuid:875fe6b9-ab98-4b4c-8cc8-96728bf5e46a"],
+        "identifiers": ["uuid:f34120d1-04ee-443a-a656-cbd8bb6cd7b3"],
         "name": "Load specification",
         "location": "references/eClassifiers/Line/load-specification.html",
         "type": {
@@ -858,9 +858,9 @@
     {
         "container": {
             "reference": "decorator",
-            "identifiers": ["uuid:6f94c259-899c-41ce-ba15-7b584d0df67a"]
+            "identifiers": ["uuid:41853379-3736-4c5c-aecd-855fe79290c3"]
         },
-        "identifiers": ["uuid:91295e40-2579-45c4-aa0c-c959e000d1b1"],
+        "identifiers": ["uuid:d331bdba-c887-4c81-a323-f546681c619a"],
         "icon": "far fa-question-circle",
         "type": {
             "name": "Link",
@@ -870,9 +870,9 @@
     {
         "container": {
             "reference": "navigation",
-            "identifiers": ["uuid:6f94c259-899c-41ce-ba15-7b584d0df67a"]
+            "identifiers": ["uuid:41853379-3736-4c5c-aecd-855fe79290c3"]
         },
-        "identifiers": ["uuid:4ac524de-c6c9-407c-b829-3c6293da4588"],
+        "identifiers": ["uuid:e59a2304-0e7b-4ba0-8bf9-22f85ca94c65"],
         "name": "Attributes",
         "icon": "https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EAttribute.gif",
         "location": "references/eClassifiers/MethodCoverage/attributes.html",
@@ -884,9 +884,9 @@
     {
         "container": {
             "reference": "navigation",
-            "identifiers": ["uuid:6f94c259-899c-41ce-ba15-7b584d0df67a"]
+            "identifiers": ["uuid:41853379-3736-4c5c-aecd-855fe79290c3"]
         },
-        "identifiers": ["uuid:bd67e33d-8c84-451e-be7b-da70bc5fb7c6"],
+        "identifiers": ["uuid:ef943ae9-28c2-42f4-80e1-f9e1fb2f7cc6"],
         "name": "Inheritance",
         "icon": "https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EGenericSuperType.gif",
         "location": "references/eClassifiers/MethodCoverage/inheritance.html",
@@ -898,11 +898,11 @@
     {
         "container": {
             "reference": "sections",
-            "identifiers": ["uuid:bd67e33d-8c84-451e-be7b-da70bc5fb7c6"]
+            "identifiers": ["uuid:ef943ae9-28c2-42f4-80e1-f9e1fb2f7cc6"]
         },
-        "identifiers": ["uuid:10db6f41-0121-4afe-9942-dd6d44ba2f6a"],
+        "identifiers": ["uuid:33a86334-4935-4e59-b77f-9781428834f2"],
         "name": "Supertypes",
-        "location": "references/eClassifiers/MethodCoverage/inheritance.html#uuid-10db6f41-0121-4afe-9942-dd6d44ba2f6a",
+        "location": "references/eClassifiers/MethodCoverage/inheritance.html#uuid-33a86334-4935-4e59-b77f-9781428834f2",
         "type": {
             "name": "Action",
             "ns-uri": "ecore://nasdanika.org/html/app"
@@ -911,9 +911,9 @@
     {
         "container": {
             "reference": "navigation",
-            "identifiers": ["uuid:6f94c259-899c-41ce-ba15-7b584d0df67a"]
+            "identifiers": ["uuid:41853379-3736-4c5c-aecd-855fe79290c3"]
         },
-        "identifiers": ["uuid:b1059ad6-6749-4826-9592-0c4577bf77e3"],
+        "identifiers": ["uuid:601ee50b-63a2-4b26-95e8-5eb31809e2a6"],
         "name": "References",
         "icon": "https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EReference.gif",
         "location": "references/eClassifiers/MethodCoverage/references.html",
@@ -925,9 +925,9 @@
     {
         "container": {
             "reference": "navigation",
-            "identifiers": ["uuid:6f94c259-899c-41ce-ba15-7b584d0df67a"]
+            "identifiers": ["uuid:41853379-3736-4c5c-aecd-855fe79290c3"]
         },
-        "identifiers": ["uuid:da718917-07a5-45e7-a91a-a613427f8370"],
+        "identifiers": ["uuid:1d3036df-d6ea-4fdf-a5e4-116ca2469c83"],
         "name": "Diagram",
         "icon": "fas fa-project-diagram",
         "location": "references/eClassifiers/MethodCoverage/diagram.html",
@@ -939,9 +939,9 @@
     {
         "container": {
             "reference": "navigation",
-            "identifiers": ["uuid:6f94c259-899c-41ce-ba15-7b584d0df67a"]
+            "identifiers": ["uuid:41853379-3736-4c5c-aecd-855fe79290c3"]
         },
-        "identifiers": ["uuid:1dff5ead-e9a1-425f-96a5-319f9c24f615"],
+        "identifiers": ["uuid:0360d5ef-9d7b-464f-9b43-bd6f307c0086"],
         "name": "Graphs",
         "icon": "https://img.icons8.com/external-dreamstale-lineal-dreamstale/16/external-diagram-seo-media-dreamstale-lineal-dreamstale.png",
         "type": {
@@ -952,9 +952,9 @@
     {
         "container": {
             "reference": "children",
-            "identifiers": ["uuid:1dff5ead-e9a1-425f-96a5-319f9c24f615"]
+            "identifiers": ["uuid:0360d5ef-9d7b-464f-9b43-bd6f307c0086"]
         },
-        "identifiers": ["uuid:76b845bc-f442-45d2-b23a-504dd2b62b2c"],
+        "identifiers": ["uuid:57314930-d872-4706-9845-7739d2390b8c"],
         "name": "Default Graph",
         "location": "references/eClassifiers/MethodCoverage/default-graph.html",
         "type": {
@@ -965,9 +965,9 @@
     {
         "container": {
             "reference": "decorator",
-            "identifiers": ["uuid:76b845bc-f442-45d2-b23a-504dd2b62b2c"]
+            "identifiers": ["uuid:57314930-d872-4706-9845-7739d2390b8c"]
         },
-        "identifiers": ["uuid:21d2724c-eef8-4aeb-a19f-fe706957af6e"],
+        "identifiers": ["uuid:c4c9bef0-0f25-40a6-b142-1952f46c782c"],
         "icon": "far fa-question-circle",
         "description": "A fixed force-layout graph of this classifier and related classifiers showing relationships between them",
         "type": {
@@ -978,9 +978,9 @@
     {
         "container": {
             "reference": "children",
-            "identifiers": ["uuid:1dff5ead-e9a1-425f-96a5-319f9c24f615"]
+            "identifiers": ["uuid:0360d5ef-9d7b-464f-9b43-bd6f307c0086"]
         },
-        "identifiers": ["uuid:8f8c462b-c488-4c5c-ae26-b56712cd58d2"],
+        "identifiers": ["uuid:ccc288f6-3fe4-4e86-a159-025a85461a73"],
         "name": "Circular Graph",
         "location": "references/eClassifiers/MethodCoverage/circular-layout-graph.html",
         "type": {
@@ -991,9 +991,9 @@
     {
         "container": {
             "reference": "decorator",
-            "identifiers": ["uuid:8f8c462b-c488-4c5c-ae26-b56712cd58d2"]
+            "identifiers": ["uuid:ccc288f6-3fe4-4e86-a159-025a85461a73"]
         },
-        "identifiers": ["uuid:add68fcd-c5ca-4dbe-a062-661851d57cf5"],
+        "identifiers": ["uuid:ed764849-51ae-4b0e-bede-184bcbee5892"],
         "icon": "far fa-question-circle",
         "description": "A circular layout graph of this classifier and related classifiers showing relationships between them",
         "type": {
@@ -1004,9 +1004,9 @@
     {
         "container": {
             "reference": "children",
-            "identifiers": ["uuid:1dff5ead-e9a1-425f-96a5-319f9c24f615"]
+            "identifiers": ["uuid:0360d5ef-9d7b-464f-9b43-bd6f307c0086"]
         },
-        "identifiers": ["uuid:68c95091-3ca3-4467-a7f5-09da3b282e1f"],
+        "identifiers": ["uuid:3868d90f-c707-4a12-929b-7e1df557fb4f"],
         "name": "Force Graph",
         "location": "references/eClassifiers/MethodCoverage/force-layout-graph.html",
         "type": {
@@ -1017,9 +1017,9 @@
     {
         "container": {
             "reference": "decorator",
-            "identifiers": ["uuid:68c95091-3ca3-4467-a7f5-09da3b282e1f"]
+            "identifiers": ["uuid:3868d90f-c707-4a12-929b-7e1df557fb4f"]
         },
-        "identifiers": ["uuid:1de55b6a-bb27-469b-9bc3-b1dbdbd9fe58"],
+        "identifiers": ["uuid:75d7620e-0db8-4439-93b9-18960850b0a0"],
         "icon": "far fa-question-circle",
         "description": "A live force-layout graph of this classifier and related classifiers showing relationships between them",
         "type": {
@@ -1030,9 +1030,9 @@
     {
         "container": {
             "reference": "decorator",
-            "identifiers": ["uuid:1dff5ead-e9a1-425f-96a5-319f9c24f615"]
+            "identifiers": ["uuid:0360d5ef-9d7b-464f-9b43-bd6f307c0086"]
         },
-        "identifiers": ["uuid:7baed85a-8339-495d-b858-43cf31cdea7d"],
+        "identifiers": ["uuid:079f3ff7-4a63-4fd1-be98-5f53611daaba"],
         "icon": "far fa-question-circle",
         "description": "Graphs of package classifiers showing relationships between them",
         "type": {
@@ -1043,9 +1043,9 @@
     {
         "container": {
             "reference": "navigation",
-            "identifiers": ["uuid:6f94c259-899c-41ce-ba15-7b584d0df67a"]
+            "identifiers": ["uuid:41853379-3736-4c5c-aecd-855fe79290c3"]
         },
-        "identifiers": ["uuid:727d1ad1-48f6-4d27-800a-799aea828c10"],
+        "identifiers": ["uuid:52a5506e-5a33-49cd-a836-7559fa214716"],
         "name": "Load specification",
         "location": "references/eClassifiers/MethodCoverage/load-specification.html",
         "type": {
@@ -1070,9 +1070,9 @@
     {
         "container": {
             "reference": "decorator",
-            "identifiers": ["uuid:1708de50-0dd7-40df-83ed-17d1c66a8d64"]
+            "identifiers": ["uuid:c6a23560-2494-41b0-93f3-3148414f1d94"]
         },
-        "identifiers": ["uuid:7d1b70b3-7159-40aa-9249-db74f4b2e96f"],
+        "identifiers": ["uuid:6407b41d-dfd3-4e82-99c7-ba3524df9e3d"],
         "icon": "far fa-question-circle",
         "type": {
             "name": "Link",
@@ -1082,9 +1082,9 @@
     {
         "container": {
             "reference": "navigation",
-            "identifiers": ["uuid:1708de50-0dd7-40df-83ed-17d1c66a8d64"]
+            "identifiers": ["uuid:c6a23560-2494-41b0-93f3-3148414f1d94"]
         },
-        "identifiers": ["uuid:ea371681-72fb-4573-968d-1c1ce19c7eaf"],
+        "identifiers": ["uuid:223e5682-14f7-4ee1-800b-9516f843f1df"],
         "name": "Attributes",
         "icon": "https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EAttribute.gif",
         "location": "references/eClassifiers/ModuleCoverage/attributes.html",
@@ -1096,9 +1096,9 @@
     {
         "container": {
             "reference": "navigation",
-            "identifiers": ["uuid:1708de50-0dd7-40df-83ed-17d1c66a8d64"]
+            "identifiers": ["uuid:c6a23560-2494-41b0-93f3-3148414f1d94"]
         },
-        "identifiers": ["uuid:3889448d-b8dc-4c30-bc15-d8122b7a7057"],
+        "identifiers": ["uuid:a840c552-9774-4e46-a700-ad5f36702e9d"],
         "name": "Inheritance",
         "icon": "https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EGenericSuperType.gif",
         "location": "references/eClassifiers/ModuleCoverage/inheritance.html",
@@ -1110,11 +1110,11 @@
     {
         "container": {
             "reference": "sections",
-            "identifiers": ["uuid:3889448d-b8dc-4c30-bc15-d8122b7a7057"]
+            "identifiers": ["uuid:a840c552-9774-4e46-a700-ad5f36702e9d"]
         },
-        "identifiers": ["uuid:6940b5df-913d-4a87-b404-f4d1e41d6423"],
+        "identifiers": ["uuid:4e82ccaa-f6dd-44fd-a039-03cdf0b630df"],
         "name": "Supertypes",
-        "location": "references/eClassifiers/ModuleCoverage/inheritance.html#uuid-6940b5df-913d-4a87-b404-f4d1e41d6423",
+        "location": "references/eClassifiers/ModuleCoverage/inheritance.html#uuid-4e82ccaa-f6dd-44fd-a039-03cdf0b630df",
         "type": {
             "name": "Action",
             "ns-uri": "ecore://nasdanika.org/html/app"
@@ -1123,9 +1123,9 @@
     {
         "container": {
             "reference": "navigation",
-            "identifiers": ["uuid:1708de50-0dd7-40df-83ed-17d1c66a8d64"]
+            "identifiers": ["uuid:c6a23560-2494-41b0-93f3-3148414f1d94"]
         },
-        "identifiers": ["uuid:02472fea-231f-47dc-8694-9761992da56b"],
+        "identifiers": ["uuid:24ebebcd-dfe4-4b07-a2fd-c0f86f759ecc"],
         "name": "References",
         "icon": "https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EReference.gif",
         "location": "references/eClassifiers/ModuleCoverage/references.html",
@@ -1137,9 +1137,9 @@
     {
         "container": {
             "reference": "navigation",
-            "identifiers": ["uuid:1708de50-0dd7-40df-83ed-17d1c66a8d64"]
+            "identifiers": ["uuid:c6a23560-2494-41b0-93f3-3148414f1d94"]
         },
-        "identifiers": ["uuid:3a649bd6-0778-4b0a-a1ba-a9a3de4899a3"],
+        "identifiers": ["uuid:abf04d91-b885-4887-a6ae-a3ec72052ee9"],
         "name": "Diagram",
         "icon": "fas fa-project-diagram",
         "location": "references/eClassifiers/ModuleCoverage/diagram.html",
@@ -1151,9 +1151,9 @@
     {
         "container": {
             "reference": "navigation",
-            "identifiers": ["uuid:1708de50-0dd7-40df-83ed-17d1c66a8d64"]
+            "identifiers": ["uuid:c6a23560-2494-41b0-93f3-3148414f1d94"]
         },
-        "identifiers": ["uuid:1564ca62-e7a7-41ae-b5ce-39f584bb8608"],
+        "identifiers": ["uuid:34b8dba6-d464-4331-b397-8d99de22ed97"],
         "name": "Graphs",
         "icon": "https://img.icons8.com/external-dreamstale-lineal-dreamstale/16/external-diagram-seo-media-dreamstale-lineal-dreamstale.png",
         "type": {
@@ -1164,9 +1164,9 @@
     {
         "container": {
             "reference": "children",
-            "identifiers": ["uuid:1564ca62-e7a7-41ae-b5ce-39f584bb8608"]
+            "identifiers": ["uuid:34b8dba6-d464-4331-b397-8d99de22ed97"]
         },
-        "identifiers": ["uuid:dca2ab24-e32e-4f05-ad11-cc8dae6daade"],
+        "identifiers": ["uuid:d0e53bb4-ee59-47cf-8622-9d34fc2291a3"],
         "name": "Default Graph",
         "location": "references/eClassifiers/ModuleCoverage/default-graph.html",
         "type": {
@@ -1177,9 +1177,9 @@
     {
         "container": {
             "reference": "decorator",
-            "identifiers": ["uuid:dca2ab24-e32e-4f05-ad11-cc8dae6daade"]
+            "identifiers": ["uuid:d0e53bb4-ee59-47cf-8622-9d34fc2291a3"]
         },
-        "identifiers": ["uuid:6621ba93-707a-4616-be90-472ac7bfa6da"],
+        "identifiers": ["uuid:d9e22a3a-373e-4a82-95fb-2e6fddf3fdd0"],
         "icon": "far fa-question-circle",
         "description": "A fixed force-layout graph of this classifier and related classifiers showing relationships between them",
         "type": {
@@ -1190,9 +1190,9 @@
     {
         "container": {
             "reference": "children",
-            "identifiers": ["uuid:1564ca62-e7a7-41ae-b5ce-39f584bb8608"]
+            "identifiers": ["uuid:34b8dba6-d464-4331-b397-8d99de22ed97"]
         },
-        "identifiers": ["uuid:79c06591-7b18-444a-aabe-cfc48c424118"],
+        "identifiers": ["uuid:377dbe9e-d731-49e5-b562-228aa4e8cc96"],
         "name": "Circular Graph",
         "location": "references/eClassifiers/ModuleCoverage/circular-layout-graph.html",
         "type": {
@@ -1203,9 +1203,9 @@
     {
         "container": {
             "reference": "decorator",
-            "identifiers": ["uuid:79c06591-7b18-444a-aabe-cfc48c424118"]
+            "identifiers": ["uuid:377dbe9e-d731-49e5-b562-228aa4e8cc96"]
         },
-        "identifiers": ["uuid:e506b946-493b-4b39-b88b-38db4ae27cab"],
+        "identifiers": ["uuid:345f970d-4066-4d69-907d-c4adf40a38c8"],
         "icon": "far fa-question-circle",
         "description": "A circular layout graph of this classifier and related classifiers showing relationships between them",
         "type": {
@@ -1216,9 +1216,9 @@
     {
         "container": {
             "reference": "children",
-            "identifiers": ["uuid:1564ca62-e7a7-41ae-b5ce-39f584bb8608"]
+            "identifiers": ["uuid:34b8dba6-d464-4331-b397-8d99de22ed97"]
         },
-        "identifiers": ["uuid:f2ab5a6e-5728-4b17-b2b5-d26c6c4c8193"],
+        "identifiers": ["uuid:7d7c160f-f995-484f-91f6-5bccc961d5d2"],
         "name": "Force Graph",
         "location": "references/eClassifiers/ModuleCoverage/force-layout-graph.html",
         "type": {
@@ -1229,9 +1229,9 @@
     {
         "container": {
             "reference": "decorator",
-            "identifiers": ["uuid:f2ab5a6e-5728-4b17-b2b5-d26c6c4c8193"]
+            "identifiers": ["uuid:7d7c160f-f995-484f-91f6-5bccc961d5d2"]
         },
-        "identifiers": ["uuid:3a43ba72-19a6-4bca-be51-1ae41de29f3c"],
+        "identifiers": ["uuid:4f2a4dd9-0a8f-43ed-b547-46b03c484d1c"],
         "icon": "far fa-question-circle",
         "description": "A live force-layout graph of this classifier and related classifiers showing relationships between them",
         "type": {
@@ -1242,9 +1242,9 @@
     {
         "container": {
             "reference": "decorator",
-            "identifiers": ["uuid:1564ca62-e7a7-41ae-b5ce-39f584bb8608"]
+            "identifiers": ["uuid:34b8dba6-d464-4331-b397-8d99de22ed97"]
         },
-        "identifiers": ["uuid:e549ddfc-56b0-4fcc-9510-bfd0370f2c7a"],
+        "identifiers": ["uuid:0ca9a723-6b39-4cac-9a51-811d4d44ab5b"],
         "icon": "far fa-question-circle",
         "description": "Graphs of package classifiers showing relationships between them",
         "type": {
@@ -1255,9 +1255,9 @@
     {
         "container": {
             "reference": "navigation",
-            "identifiers": ["uuid:1708de50-0dd7-40df-83ed-17d1c66a8d64"]
+            "identifiers": ["uuid:c6a23560-2494-41b0-93f3-3148414f1d94"]
         },
-        "identifiers": ["uuid:9e5632a5-ee9e-48df-ae1e-733c12e72ecb"],
+        "identifiers": ["uuid:75fe4aa7-9296-4fc4-b388-31ac5c2166eb"],
         "name": "Load specification",
         "location": "references/eClassifiers/ModuleCoverage/load-specification.html",
         "type": {
@@ -1282,9 +1282,9 @@
     {
         "container": {
             "reference": "decorator",
-            "identifiers": ["uuid:4b43a57d-3110-45f3-9d96-c5d94a26d0ee"]
+            "identifiers": ["uuid:87758a36-2389-4767-a95b-03fbe34aa22a"]
         },
-        "identifiers": ["uuid:a7778d59-de07-498e-9494-d0a9503a742c"],
+        "identifiers": ["uuid:a3963f90-8ae1-4103-9c8a-dc8e19558d08"],
         "icon": "far fa-question-circle",
         "type": {
             "name": "Link",
@@ -1294,9 +1294,9 @@
     {
         "container": {
             "reference": "navigation",
-            "identifiers": ["uuid:4b43a57d-3110-45f3-9d96-c5d94a26d0ee"]
+            "identifiers": ["uuid:87758a36-2389-4767-a95b-03fbe34aa22a"]
         },
-        "identifiers": ["uuid:dedafbcf-b594-4cfb-9ab8-31fbdcee3d42"],
+        "identifiers": ["uuid:1c05aef1-0323-4a09-a75a-6717c070a970"],
         "name": "Attributes",
         "icon": "https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EAttribute.gif",
         "location": "references/eClassifiers/PackageCoverage/attributes.html",
@@ -1308,9 +1308,9 @@
     {
         "container": {
             "reference": "navigation",
-            "identifiers": ["uuid:4b43a57d-3110-45f3-9d96-c5d94a26d0ee"]
+            "identifiers": ["uuid:87758a36-2389-4767-a95b-03fbe34aa22a"]
         },
-        "identifiers": ["uuid:69a7c3d3-dde2-4243-b2b8-957ce96e1fc4"],
+        "identifiers": ["uuid:71de6508-7834-4315-85ba-101d05ee7e56"],
         "name": "Inheritance",
         "icon": "https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EGenericSuperType.gif",
         "location": "references/eClassifiers/PackageCoverage/inheritance.html",
@@ -1322,11 +1322,11 @@
     {
         "container": {
             "reference": "sections",
-            "identifiers": ["uuid:69a7c3d3-dde2-4243-b2b8-957ce96e1fc4"]
+            "identifiers": ["uuid:71de6508-7834-4315-85ba-101d05ee7e56"]
         },
-        "identifiers": ["uuid:294ecb6f-8c54-4ee3-ae35-8d2192cb429b"],
+        "identifiers": ["uuid:bc85c0ae-035a-4cd4-88d4-69fa951db41a"],
         "name": "Supertypes",
-        "location": "references/eClassifiers/PackageCoverage/inheritance.html#uuid-294ecb6f-8c54-4ee3-ae35-8d2192cb429b",
+        "location": "references/eClassifiers/PackageCoverage/inheritance.html#uuid-bc85c0ae-035a-4cd4-88d4-69fa951db41a",
         "type": {
             "name": "Action",
             "ns-uri": "ecore://nasdanika.org/html/app"
@@ -1335,9 +1335,9 @@
     {
         "container": {
             "reference": "navigation",
-            "identifiers": ["uuid:4b43a57d-3110-45f3-9d96-c5d94a26d0ee"]
+            "identifiers": ["uuid:87758a36-2389-4767-a95b-03fbe34aa22a"]
         },
-        "identifiers": ["uuid:9417a42b-6bb8-4ebc-9857-b886e46567c6"],
+        "identifiers": ["uuid:6784090e-9009-4398-80ae-e82cea72d752"],
         "name": "References",
         "icon": "https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EReference.gif",
         "location": "references/eClassifiers/PackageCoverage/references.html",
@@ -1349,9 +1349,9 @@
     {
         "container": {
             "reference": "navigation",
-            "identifiers": ["uuid:4b43a57d-3110-45f3-9d96-c5d94a26d0ee"]
+            "identifiers": ["uuid:87758a36-2389-4767-a95b-03fbe34aa22a"]
         },
-        "identifiers": ["uuid:43f9feda-a0b3-46df-b071-04ab415da652"],
+        "identifiers": ["uuid:ca423505-e435-485c-93a0-451a77b85da9"],
         "name": "Diagram",
         "icon": "fas fa-project-diagram",
         "location": "references/eClassifiers/PackageCoverage/diagram.html",
@@ -1363,9 +1363,9 @@
     {
         "container": {
             "reference": "navigation",
-            "identifiers": ["uuid:4b43a57d-3110-45f3-9d96-c5d94a26d0ee"]
+            "identifiers": ["uuid:87758a36-2389-4767-a95b-03fbe34aa22a"]
         },
-        "identifiers": ["uuid:321b46c4-560d-4a26-8dea-5558437c17c0"],
+        "identifiers": ["uuid:39169d19-4878-42fc-ba08-95bbcbe717f0"],
         "name": "Graphs",
         "icon": "https://img.icons8.com/external-dreamstale-lineal-dreamstale/16/external-diagram-seo-media-dreamstale-lineal-dreamstale.png",
         "type": {
@@ -1376,9 +1376,9 @@
     {
         "container": {
             "reference": "children",
-            "identifiers": ["uuid:321b46c4-560d-4a26-8dea-5558437c17c0"]
+            "identifiers": ["uuid:39169d19-4878-42fc-ba08-95bbcbe717f0"]
         },
-        "identifiers": ["uuid:824ce95b-40e9-48ee-9db3-72ee0bf61321"],
+        "identifiers": ["uuid:bae20435-11d5-4298-ae1e-36f4abf33a50"],
         "name": "Default Graph",
         "location": "references/eClassifiers/PackageCoverage/default-graph.html",
         "type": {
@@ -1389,9 +1389,9 @@
     {
         "container": {
             "reference": "decorator",
-            "identifiers": ["uuid:824ce95b-40e9-48ee-9db3-72ee0bf61321"]
+            "identifiers": ["uuid:bae20435-11d5-4298-ae1e-36f4abf33a50"]
         },
-        "identifiers": ["uuid:8416acc5-7797-4e94-8f68-b0ca79a3ec47"],
+        "identifiers": ["uuid:41b0d580-efee-40c3-95bc-1e2f713e1e09"],
         "icon": "far fa-question-circle",
         "description": "A fixed force-layout graph of this classifier and related classifiers showing relationships between them",
         "type": {
@@ -1402,9 +1402,9 @@
     {
         "container": {
             "reference": "children",
-            "identifiers": ["uuid:321b46c4-560d-4a26-8dea-5558437c17c0"]
+            "identifiers": ["uuid:39169d19-4878-42fc-ba08-95bbcbe717f0"]
         },
-        "identifiers": ["uuid:6c65ec39-ae9c-4af4-b93b-04cb13667bc3"],
+        "identifiers": ["uuid:732d9ad4-cd02-4c87-b376-fa988ffb183e"],
         "name": "Circular Graph",
         "location": "references/eClassifiers/PackageCoverage/circular-layout-graph.html",
         "type": {
@@ -1415,9 +1415,9 @@
     {
         "container": {
             "reference": "decorator",
-            "identifiers": ["uuid:6c65ec39-ae9c-4af4-b93b-04cb13667bc3"]
+            "identifiers": ["uuid:732d9ad4-cd02-4c87-b376-fa988ffb183e"]
         },
-        "identifiers": ["uuid:e7012d80-ee81-40f5-9490-cafbe2d5ccc2"],
+        "identifiers": ["uuid:c7b5398e-46e0-44b0-a16c-bcd8baa59613"],
         "icon": "far fa-question-circle",
         "description": "A circular layout graph of this classifier and related classifiers showing relationships between them",
         "type": {
@@ -1428,9 +1428,9 @@
     {
         "container": {
             "reference": "children",
-            "identifiers": ["uuid:321b46c4-560d-4a26-8dea-5558437c17c0"]
+            "identifiers": ["uuid:39169d19-4878-42fc-ba08-95bbcbe717f0"]
         },
-        "identifiers": ["uuid:40ccece0-dea0-4f76-bdbd-77cafa0c3811"],
+        "identifiers": ["uuid:e1197cdc-cb20-4e76-8a90-722863d0cf63"],
         "name": "Force Graph",
         "location": "references/eClassifiers/PackageCoverage/force-layout-graph.html",
         "type": {
@@ -1441,9 +1441,9 @@
     {
         "container": {
             "reference": "decorator",
-            "identifiers": ["uuid:40ccece0-dea0-4f76-bdbd-77cafa0c3811"]
+            "identifiers": ["uuid:e1197cdc-cb20-4e76-8a90-722863d0cf63"]
         },
-        "identifiers": ["uuid:24e8ecbb-0a64-4309-9ba2-ab3fa9bab8f8"],
+        "identifiers": ["uuid:f4403f82-0100-4f07-8e72-695479e11f5e"],
         "icon": "far fa-question-circle",
         "description": "A live force-layout graph of this classifier and related classifiers showing relationships between them",
         "type": {
@@ -1454,9 +1454,9 @@
     {
         "container": {
             "reference": "decorator",
-            "identifiers": ["uuid:321b46c4-560d-4a26-8dea-5558437c17c0"]
+            "identifiers": ["uuid:39169d19-4878-42fc-ba08-95bbcbe717f0"]
         },
-        "identifiers": ["uuid:90dc9472-f342-4325-bf41-40684004ac4d"],
+        "identifiers": ["uuid:0f8e1f7e-259d-4997-923b-644f9ee86c94"],
         "icon": "far fa-question-circle",
         "description": "Graphs of package classifiers showing relationships between them",
         "type": {
@@ -1467,9 +1467,9 @@
     {
         "container": {
             "reference": "navigation",
-            "identifiers": ["uuid:4b43a57d-3110-45f3-9d96-c5d94a26d0ee"]
+            "identifiers": ["uuid:87758a36-2389-4767-a95b-03fbe34aa22a"]
         },
-        "identifiers": ["uuid:9632afd5-82f2-41a0-bc97-c3afb31e95dd"],
+        "identifiers": ["uuid:7b2ced16-9051-41b8-a1d5-a75b277ce933"],
         "name": "Load specification",
         "location": "references/eClassifiers/PackageCoverage/load-specification.html",
         "type": {
@@ -1494,9 +1494,9 @@
     {
         "container": {
             "reference": "decorator",
-            "identifiers": ["uuid:3b8c61e2-31fb-4df1-8561-601e763a70fa"]
+            "identifiers": ["uuid:3ea9e75b-2aa6-4a38-9a8d-c40749428f6c"]
         },
-        "identifiers": ["uuid:014a9327-1384-4103-829b-63174de87a83"],
+        "identifiers": ["uuid:0398c1b7-87f6-4bc6-85eb-dcaa9df5aa2d"],
         "icon": "far fa-question-circle",
         "type": {
             "name": "Link",
@@ -1506,9 +1506,9 @@
     {
         "container": {
             "reference": "navigation",
-            "identifiers": ["uuid:3b8c61e2-31fb-4df1-8561-601e763a70fa"]
+            "identifiers": ["uuid:3ea9e75b-2aa6-4a38-9a8d-c40749428f6c"]
         },
-        "identifiers": ["uuid:d238d300-ebd0-419d-a704-897ffa038d8a"],
+        "identifiers": ["uuid:3da597eb-b643-404d-9304-4d0947e28f1c"],
         "name": "Attributes",
         "icon": "https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EAttribute.gif",
         "location": "references/eClassifiers/Session/attributes.html",
@@ -1520,9 +1520,9 @@
     {
         "container": {
             "reference": "navigation",
-            "identifiers": ["uuid:3b8c61e2-31fb-4df1-8561-601e763a70fa"]
+            "identifiers": ["uuid:3ea9e75b-2aa6-4a38-9a8d-c40749428f6c"]
         },
-        "identifiers": ["uuid:2872c9f2-586c-48c1-9064-80feb471a0d9"],
+        "identifiers": ["uuid:f609d664-d771-438e-b326-5c520b149921"],
         "name": "Diagram",
         "icon": "fas fa-project-diagram",
         "location": "references/eClassifiers/Session/diagram.html",
@@ -1534,9 +1534,9 @@
     {
         "container": {
             "reference": "navigation",
-            "identifiers": ["uuid:3b8c61e2-31fb-4df1-8561-601e763a70fa"]
+            "identifiers": ["uuid:3ea9e75b-2aa6-4a38-9a8d-c40749428f6c"]
         },
-        "identifiers": ["uuid:59fadf9b-4eff-4e5f-ac36-4cb34179f5dc"],
+        "identifiers": ["uuid:ff1a1eb8-07d7-48da-b771-6bab9e673c35"],
         "name": "Graphs",
         "icon": "https://img.icons8.com/external-dreamstale-lineal-dreamstale/16/external-diagram-seo-media-dreamstale-lineal-dreamstale.png",
         "type": {
@@ -1547,9 +1547,9 @@
     {
         "container": {
             "reference": "children",
-            "identifiers": ["uuid:59fadf9b-4eff-4e5f-ac36-4cb34179f5dc"]
+            "identifiers": ["uuid:ff1a1eb8-07d7-48da-b771-6bab9e673c35"]
         },
-        "identifiers": ["uuid:1699de7d-8e27-4f0d-a685-748580f3d5fb"],
+        "identifiers": ["uuid:3a8c2470-ea18-48c9-909b-a92a4b1379cf"],
         "name": "Default Graph",
         "location": "references/eClassifiers/Session/default-graph.html",
         "type": {
@@ -1560,9 +1560,9 @@
     {
         "container": {
             "reference": "decorator",
-            "identifiers": ["uuid:1699de7d-8e27-4f0d-a685-748580f3d5fb"]
+            "identifiers": ["uuid:3a8c2470-ea18-48c9-909b-a92a4b1379cf"]
         },
-        "identifiers": ["uuid:9278e530-1e52-40b6-a62b-655a49f77a12"],
+        "identifiers": ["uuid:b73543fa-4fc8-486c-919b-8e3d17daa6de"],
         "icon": "far fa-question-circle",
         "description": "A fixed force-layout graph of this classifier and related classifiers showing relationships between them",
         "type": {
@@ -1573,9 +1573,9 @@
     {
         "container": {
             "reference": "children",
-            "identifiers": ["uuid:59fadf9b-4eff-4e5f-ac36-4cb34179f5dc"]
+            "identifiers": ["uuid:ff1a1eb8-07d7-48da-b771-6bab9e673c35"]
         },
-        "identifiers": ["uuid:a516f89e-b5bc-43e0-ba0d-81be9ca0e5bd"],
+        "identifiers": ["uuid:fa74d3b8-3428-4b43-bf1b-7915d65488de"],
         "name": "Circular Graph",
         "location": "references/eClassifiers/Session/circular-layout-graph.html",
         "type": {
@@ -1586,9 +1586,9 @@
     {
         "container": {
             "reference": "decorator",
-            "identifiers": ["uuid:a516f89e-b5bc-43e0-ba0d-81be9ca0e5bd"]
+            "identifiers": ["uuid:fa74d3b8-3428-4b43-bf1b-7915d65488de"]
         },
-        "identifiers": ["uuid:0b3c0e08-520a-4a90-a38b-5cf4817434ea"],
+        "identifiers": ["uuid:776e89c9-0119-4579-8f37-9243c6d20cf6"],
         "icon": "far fa-question-circle",
         "description": "A circular layout graph of this classifier and related classifiers showing relationships between them",
         "type": {
@@ -1599,9 +1599,9 @@
     {
         "container": {
             "reference": "children",
-            "identifiers": ["uuid:59fadf9b-4eff-4e5f-ac36-4cb34179f5dc"]
+            "identifiers": ["uuid:ff1a1eb8-07d7-48da-b771-6bab9e673c35"]
         },
-        "identifiers": ["uuid:0e2c8d24-ef14-4d19-824c-7cc2e47c3759"],
+        "identifiers": ["uuid:c0fc119c-8430-4116-8bbc-e32dea0b9996"],
         "name": "Force Graph",
         "location": "references/eClassifiers/Session/force-layout-graph.html",
         "type": {
@@ -1612,9 +1612,9 @@
     {
         "container": {
             "reference": "decorator",
-            "identifiers": ["uuid:0e2c8d24-ef14-4d19-824c-7cc2e47c3759"]
+            "identifiers": ["uuid:c0fc119c-8430-4116-8bbc-e32dea0b9996"]
         },
-        "identifiers": ["uuid:afdc4a52-8c44-4bcb-88ec-a27dfe21609c"],
+        "identifiers": ["uuid:2e432594-f89f-4fcc-a438-4b09d2a9d44b"],
         "icon": "far fa-question-circle",
         "description": "A live force-layout graph of this classifier and related classifiers showing relationships between them",
         "type": {
@@ -1625,9 +1625,9 @@
     {
         "container": {
             "reference": "decorator",
-            "identifiers": ["uuid:59fadf9b-4eff-4e5f-ac36-4cb34179f5dc"]
+            "identifiers": ["uuid:ff1a1eb8-07d7-48da-b771-6bab9e673c35"]
         },
-        "identifiers": ["uuid:83ae7b48-c599-4ff3-8bab-e179b05a1fa9"],
+        "identifiers": ["uuid:61c70405-34fe-4b67-b662-806314ebbb95"],
         "icon": "far fa-question-circle",
         "description": "Graphs of package classifiers showing relationships between them",
         "type": {
@@ -1638,9 +1638,9 @@
     {
         "container": {
             "reference": "navigation",
-            "identifiers": ["uuid:3b8c61e2-31fb-4df1-8561-601e763a70fa"]
+            "identifiers": ["uuid:3ea9e75b-2aa6-4a38-9a8d-c40749428f6c"]
         },
-        "identifiers": ["uuid:fd46373a-f3d6-4ac9-8b2b-30688fc1ac8f"],
+        "identifiers": ["uuid:229b8041-c4b1-46e6-9b18-bd133036d600"],
         "name": "Load specification",
         "location": "references/eClassifiers/Session/load-specification.html",
         "type": {
@@ -1665,9 +1665,9 @@
     {
         "container": {
             "reference": "decorator",
-            "identifiers": ["uuid:0f340c95-3244-4e9b-b43d-cfc66e1e012f"]
+            "identifiers": ["uuid:52110e73-32af-42ee-abab-7d804dbba612"]
         },
-        "identifiers": ["uuid:24d6f3f7-16d2-4f1c-b086-4eff636d5797"],
+        "identifiers": ["uuid:637d39c5-91a5-4c46-848b-c2c819dd5d9b"],
         "icon": "far fa-question-circle",
         "type": {
             "name": "Link",
@@ -1677,9 +1677,9 @@
     {
         "container": {
             "reference": "navigation",
-            "identifiers": ["uuid:0f340c95-3244-4e9b-b43d-cfc66e1e012f"]
+            "identifiers": ["uuid:52110e73-32af-42ee-abab-7d804dbba612"]
         },
-        "identifiers": ["uuid:5da252a9-2433-46e4-906b-47b1355665be"],
+        "identifiers": ["uuid:80200924-3ebb-48ba-aad3-55718adc622d"],
         "name": "Attributes",
         "icon": "https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EAttribute.gif",
         "location": "references/eClassifiers/SourceCoverage/attributes.html",
@@ -1691,9 +1691,9 @@
     {
         "container": {
             "reference": "navigation",
-            "identifiers": ["uuid:0f340c95-3244-4e9b-b43d-cfc66e1e012f"]
+            "identifiers": ["uuid:52110e73-32af-42ee-abab-7d804dbba612"]
         },
-        "identifiers": ["uuid:6de06ca7-6c5f-4287-afa4-4cb9e547088b"],
+        "identifiers": ["uuid:d08bc537-6dc0-400c-a3b2-f65a172f97ce"],
         "name": "Inheritance",
         "icon": "https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EGenericSuperType.gif",
         "location": "references/eClassifiers/SourceCoverage/inheritance.html",
@@ -1705,11 +1705,11 @@
     {
         "container": {
             "reference": "sections",
-            "identifiers": ["uuid:6de06ca7-6c5f-4287-afa4-4cb9e547088b"]
+            "identifiers": ["uuid:d08bc537-6dc0-400c-a3b2-f65a172f97ce"]
         },
-        "identifiers": ["uuid:b1db8451-cd05-4566-95da-67081aa00d5f"],
+        "identifiers": ["uuid:b5b44310-8626-40e1-896e-59e7edd8f095"],
         "name": "Supertypes",
-        "location": "references/eClassifiers/SourceCoverage/inheritance.html#uuid-b1db8451-cd05-4566-95da-67081aa00d5f",
+        "location": "references/eClassifiers/SourceCoverage/inheritance.html#uuid-b5b44310-8626-40e1-896e-59e7edd8f095",
         "type": {
             "name": "Action",
             "ns-uri": "ecore://nasdanika.org/html/app"
@@ -1718,11 +1718,11 @@
     {
         "container": {
             "reference": "sections",
-            "identifiers": ["uuid:6de06ca7-6c5f-4287-afa4-4cb9e547088b"]
+            "identifiers": ["uuid:d08bc537-6dc0-400c-a3b2-f65a172f97ce"]
         },
-        "identifiers": ["uuid:3da3a65c-33e4-44f9-b895-62d2fa4789e9"],
+        "identifiers": ["uuid:578da790-2416-4038-a5ec-cbbcaff8f44e"],
         "name": "Subtypes",
-        "location": "references/eClassifiers/SourceCoverage/inheritance.html#uuid-3da3a65c-33e4-44f9-b895-62d2fa4789e9",
+        "location": "references/eClassifiers/SourceCoverage/inheritance.html#uuid-578da790-2416-4038-a5ec-cbbcaff8f44e",
         "type": {
             "name": "Action",
             "ns-uri": "ecore://nasdanika.org/html/app"
@@ -1731,9 +1731,9 @@
     {
         "container": {
             "reference": "navigation",
-            "identifiers": ["uuid:0f340c95-3244-4e9b-b43d-cfc66e1e012f"]
+            "identifiers": ["uuid:52110e73-32af-42ee-abab-7d804dbba612"]
         },
-        "identifiers": ["uuid:3e6fcbb1-954c-4cc6-82b6-8101b7e67398"],
+        "identifiers": ["uuid:7de4cf99-43b4-425b-a78c-65374cbb398f"],
         "name": "References",
         "icon": "https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EReference.gif",
         "location": "references/eClassifiers/SourceCoverage/references.html",
@@ -1745,9 +1745,9 @@
     {
         "container": {
             "reference": "navigation",
-            "identifiers": ["uuid:0f340c95-3244-4e9b-b43d-cfc66e1e012f"]
+            "identifiers": ["uuid:52110e73-32af-42ee-abab-7d804dbba612"]
         },
-        "identifiers": ["uuid:1e36d346-ddc0-44ab-933f-5373fb2d0118"],
+        "identifiers": ["uuid:39d42841-2013-4a3c-aa31-fda5f2fb290c"],
         "name": "Diagram",
         "icon": "fas fa-project-diagram",
         "location": "references/eClassifiers/SourceCoverage/diagram.html",
@@ -1759,9 +1759,9 @@
     {
         "container": {
             "reference": "navigation",
-            "identifiers": ["uuid:0f340c95-3244-4e9b-b43d-cfc66e1e012f"]
+            "identifiers": ["uuid:52110e73-32af-42ee-abab-7d804dbba612"]
         },
-        "identifiers": ["uuid:4865e5cf-fdd0-44cc-9602-76cd8cdf3afd"],
+        "identifiers": ["uuid:a14766ad-0878-4fd6-93c7-bdac02fb4f54"],
         "name": "Graphs",
         "icon": "https://img.icons8.com/external-dreamstale-lineal-dreamstale/16/external-diagram-seo-media-dreamstale-lineal-dreamstale.png",
         "type": {
@@ -1772,9 +1772,9 @@
     {
         "container": {
             "reference": "children",
-            "identifiers": ["uuid:4865e5cf-fdd0-44cc-9602-76cd8cdf3afd"]
+            "identifiers": ["uuid:a14766ad-0878-4fd6-93c7-bdac02fb4f54"]
         },
-        "identifiers": ["uuid:fa481993-88b3-4eed-bfa7-aa5be113fe09"],
+        "identifiers": ["uuid:600c681f-a607-4694-b13a-ad1a0833c547"],
         "name": "Default Graph",
         "location": "references/eClassifiers/SourceCoverage/default-graph.html",
         "type": {
@@ -1785,9 +1785,9 @@
     {
         "container": {
             "reference": "decorator",
-            "identifiers": ["uuid:fa481993-88b3-4eed-bfa7-aa5be113fe09"]
+            "identifiers": ["uuid:600c681f-a607-4694-b13a-ad1a0833c547"]
         },
-        "identifiers": ["uuid:d4548fd0-ad8b-40df-8b58-8864bd8ab64f"],
+        "identifiers": ["uuid:45063cf1-8a88-4b7f-b45c-7a55767dc2ff"],
         "icon": "far fa-question-circle",
         "description": "A fixed force-layout graph of this classifier and related classifiers showing relationships between them",
         "type": {
@@ -1798,9 +1798,9 @@
     {
         "container": {
             "reference": "children",
-            "identifiers": ["uuid:4865e5cf-fdd0-44cc-9602-76cd8cdf3afd"]
+            "identifiers": ["uuid:a14766ad-0878-4fd6-93c7-bdac02fb4f54"]
         },
-        "identifiers": ["uuid:ad114ab9-54bb-4090-b939-2743a4d1cb3b"],
+        "identifiers": ["uuid:fb6f95cb-6453-4fba-97c3-efa3d719abad"],
         "name": "Circular Graph",
         "location": "references/eClassifiers/SourceCoverage/circular-layout-graph.html",
         "type": {
@@ -1811,9 +1811,9 @@
     {
         "container": {
             "reference": "decorator",
-            "identifiers": ["uuid:ad114ab9-54bb-4090-b939-2743a4d1cb3b"]
+            "identifiers": ["uuid:fb6f95cb-6453-4fba-97c3-efa3d719abad"]
         },
-        "identifiers": ["uuid:2c1aa532-40c1-4615-8f71-d0705ff98201"],
+        "identifiers": ["uuid:3b3c5dd1-1eea-4667-a331-8d6bca32c8ef"],
         "icon": "far fa-question-circle",
         "description": "A circular layout graph of this classifier and related classifiers showing relationships between them",
         "type": {
@@ -1824,9 +1824,9 @@
     {
         "container": {
             "reference": "children",
-            "identifiers": ["uuid:4865e5cf-fdd0-44cc-9602-76cd8cdf3afd"]
+            "identifiers": ["uuid:a14766ad-0878-4fd6-93c7-bdac02fb4f54"]
         },
-        "identifiers": ["uuid:9f56f5c5-4618-462b-b70b-48eb45b08b96"],
+        "identifiers": ["uuid:3524c7ac-d6ce-4e07-bb28-28d75a32eee9"],
         "name": "Force Graph",
         "location": "references/eClassifiers/SourceCoverage/force-layout-graph.html",
         "type": {
@@ -1837,9 +1837,9 @@
     {
         "container": {
             "reference": "decorator",
-            "identifiers": ["uuid:9f56f5c5-4618-462b-b70b-48eb45b08b96"]
+            "identifiers": ["uuid:3524c7ac-d6ce-4e07-bb28-28d75a32eee9"]
         },
-        "identifiers": ["uuid:869a3920-793c-4d56-a717-795696bb8c26"],
+        "identifiers": ["uuid:04eed5e6-3526-414f-9b5a-3f5cdc5d9861"],
         "icon": "far fa-question-circle",
         "description": "A live force-layout graph of this classifier and related classifiers showing relationships between them",
         "type": {
@@ -1850,9 +1850,9 @@
     {
         "container": {
             "reference": "decorator",
-            "identifiers": ["uuid:4865e5cf-fdd0-44cc-9602-76cd8cdf3afd"]
+            "identifiers": ["uuid:a14766ad-0878-4fd6-93c7-bdac02fb4f54"]
         },
-        "identifiers": ["uuid:b2273303-1239-4e78-b90b-2f9a5952164b"],
+        "identifiers": ["uuid:7264db57-8720-4aac-9858-123037876239"],
         "icon": "far fa-question-circle",
         "description": "Graphs of package classifiers showing relationships between them",
         "type": {
@@ -1863,9 +1863,9 @@
     {
         "container": {
             "reference": "navigation",
-            "identifiers": ["uuid:0f340c95-3244-4e9b-b43d-cfc66e1e012f"]
+            "identifiers": ["uuid:52110e73-32af-42ee-abab-7d804dbba612"]
         },
-        "identifiers": ["uuid:903e1251-6090-4041-9865-0f9681c3131d"],
+        "identifiers": ["uuid:99a946a6-d85e-45e2-90a6-fa7fbb040ec3"],
         "name": "Load specification",
         "location": "references/eClassifiers/SourceCoverage/load-specification.html",
         "type": {
@@ -1890,9 +1890,9 @@
     {
         "container": {
             "reference": "decorator",
-            "identifiers": ["uuid:98fefef7-dbc4-49fc-8b03-75e6453bac80"]
+            "identifiers": ["uuid:9794249c-dfca-4c29-8219-1bd4f1e56f19"]
         },
-        "identifiers": ["uuid:2125c689-56d6-4f5a-99e2-2981bd92683a"],
+        "identifiers": ["uuid:28a9e207-a70d-4d0e-b2b8-4421721839de"],
         "icon": "far fa-question-circle",
         "type": {
             "name": "Link",
@@ -1902,9 +1902,9 @@
     {
         "container": {
             "reference": "navigation",
-            "identifiers": ["uuid:98fefef7-dbc4-49fc-8b03-75e6453bac80"]
+            "identifiers": ["uuid:9794249c-dfca-4c29-8219-1bd4f1e56f19"]
         },
-        "identifiers": ["uuid:fb2b8f01-be1f-40fd-8c6b-29dd618dca6f"],
+        "identifiers": ["uuid:f4983704-0945-4fa0-a511-799776a0838c"],
         "name": "Attributes",
         "icon": "https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EAttribute.gif",
         "location": "references/eClassifiers/SourceFileCoverage/attributes.html",
@@ -1916,9 +1916,9 @@
     {
         "container": {
             "reference": "navigation",
-            "identifiers": ["uuid:98fefef7-dbc4-49fc-8b03-75e6453bac80"]
+            "identifiers": ["uuid:9794249c-dfca-4c29-8219-1bd4f1e56f19"]
         },
-        "identifiers": ["uuid:afa756a7-7343-4c62-b353-c7dd15969e7b"],
+        "identifiers": ["uuid:8a6945cb-c487-46b4-b9ae-946ba41343f3"],
         "name": "Inheritance",
         "icon": "https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EGenericSuperType.gif",
         "location": "references/eClassifiers/SourceFileCoverage/inheritance.html",
@@ -1930,11 +1930,11 @@
     {
         "container": {
             "reference": "sections",
-            "identifiers": ["uuid:afa756a7-7343-4c62-b353-c7dd15969e7b"]
+            "identifiers": ["uuid:8a6945cb-c487-46b4-b9ae-946ba41343f3"]
         },
-        "identifiers": ["uuid:b54cb119-1128-4dfe-923f-42ade57bfd41"],
+        "identifiers": ["uuid:87d506d1-14dd-4955-8361-7daae4165415"],
         "name": "Supertypes",
-        "location": "references/eClassifiers/SourceFileCoverage/inheritance.html#uuid-b54cb119-1128-4dfe-923f-42ade57bfd41",
+        "location": "references/eClassifiers/SourceFileCoverage/inheritance.html#uuid-87d506d1-14dd-4955-8361-7daae4165415",
         "type": {
             "name": "Action",
             "ns-uri": "ecore://nasdanika.org/html/app"
@@ -1943,9 +1943,9 @@
     {
         "container": {
             "reference": "navigation",
-            "identifiers": ["uuid:98fefef7-dbc4-49fc-8b03-75e6453bac80"]
+            "identifiers": ["uuid:9794249c-dfca-4c29-8219-1bd4f1e56f19"]
         },
-        "identifiers": ["uuid:2623790b-5d1a-47e0-8c41-34c599972ffb"],
+        "identifiers": ["uuid:a8234fa0-7c2e-4f2c-9242-f7c917b34288"],
         "name": "References",
         "icon": "https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EReference.gif",
         "location": "references/eClassifiers/SourceFileCoverage/references.html",
@@ -1957,9 +1957,9 @@
     {
         "container": {
             "reference": "navigation",
-            "identifiers": ["uuid:98fefef7-dbc4-49fc-8b03-75e6453bac80"]
+            "identifiers": ["uuid:9794249c-dfca-4c29-8219-1bd4f1e56f19"]
         },
-        "identifiers": ["uuid:5409f4a0-21c4-4c26-a470-a7b1a5313585"],
+        "identifiers": ["uuid:83c346b6-5a50-4824-b57b-85bf8c52edf4"],
         "name": "Diagram",
         "icon": "fas fa-project-diagram",
         "location": "references/eClassifiers/SourceFileCoverage/diagram.html",
@@ -1971,9 +1971,9 @@
     {
         "container": {
             "reference": "navigation",
-            "identifiers": ["uuid:98fefef7-dbc4-49fc-8b03-75e6453bac80"]
+            "identifiers": ["uuid:9794249c-dfca-4c29-8219-1bd4f1e56f19"]
         },
-        "identifiers": ["uuid:ae98ecc9-3f6e-4f00-8559-466495e59943"],
+        "identifiers": ["uuid:b01742e5-fca2-4dfc-a453-e44ac8178690"],
         "name": "Graphs",
         "icon": "https://img.icons8.com/external-dreamstale-lineal-dreamstale/16/external-diagram-seo-media-dreamstale-lineal-dreamstale.png",
         "type": {
@@ -1984,9 +1984,9 @@
     {
         "container": {
             "reference": "children",
-            "identifiers": ["uuid:ae98ecc9-3f6e-4f00-8559-466495e59943"]
+            "identifiers": ["uuid:b01742e5-fca2-4dfc-a453-e44ac8178690"]
         },
-        "identifiers": ["uuid:8b3d378f-9c3e-43af-8ca8-ca7931f16688"],
+        "identifiers": ["uuid:f235045a-4a14-4536-aa33-9e8dfcb90d97"],
         "name": "Default Graph",
         "location": "references/eClassifiers/SourceFileCoverage/default-graph.html",
         "type": {
@@ -1997,9 +1997,9 @@
     {
         "container": {
             "reference": "decorator",
-            "identifiers": ["uuid:8b3d378f-9c3e-43af-8ca8-ca7931f16688"]
+            "identifiers": ["uuid:f235045a-4a14-4536-aa33-9e8dfcb90d97"]
         },
-        "identifiers": ["uuid:44e351c5-81a2-45cc-9eb5-07fcbb783903"],
+        "identifiers": ["uuid:6c91e175-b3c0-4e34-9c4b-2fb7869cc94c"],
         "icon": "far fa-question-circle",
         "description": "A fixed force-layout graph of this classifier and related classifiers showing relationships between them",
         "type": {
@@ -2010,9 +2010,9 @@
     {
         "container": {
             "reference": "children",
-            "identifiers": ["uuid:ae98ecc9-3f6e-4f00-8559-466495e59943"]
+            "identifiers": ["uuid:b01742e5-fca2-4dfc-a453-e44ac8178690"]
         },
-        "identifiers": ["uuid:135f9920-9577-4c8e-b482-810b607b70be"],
+        "identifiers": ["uuid:3dcdba3e-97bb-4984-9109-0fb911f2e614"],
         "name": "Circular Graph",
         "location": "references/eClassifiers/SourceFileCoverage/circular-layout-graph.html",
         "type": {
@@ -2023,9 +2023,9 @@
     {
         "container": {
             "reference": "decorator",
-            "identifiers": ["uuid:135f9920-9577-4c8e-b482-810b607b70be"]
+            "identifiers": ["uuid:3dcdba3e-97bb-4984-9109-0fb911f2e614"]
         },
-        "identifiers": ["uuid:49ed37b6-7af6-471a-a54c-2ff478f7ac9c"],
+        "identifiers": ["uuid:3edd1897-75b8-489f-b44f-b7d04c10a469"],
         "icon": "far fa-question-circle",
         "description": "A circular layout graph of this classifier and related classifiers showing relationships between them",
         "type": {
@@ -2036,9 +2036,9 @@
     {
         "container": {
             "reference": "children",
-            "identifiers": ["uuid:ae98ecc9-3f6e-4f00-8559-466495e59943"]
+            "identifiers": ["uuid:b01742e5-fca2-4dfc-a453-e44ac8178690"]
         },
-        "identifiers": ["uuid:aba9e59f-88da-464b-95dd-c0807d0415cd"],
+        "identifiers": ["uuid:25e6c4b1-b623-4ceb-89f4-4f23fc2fb68d"],
         "name": "Force Graph",
         "location": "references/eClassifiers/SourceFileCoverage/force-layout-graph.html",
         "type": {
@@ -2049,9 +2049,9 @@
     {
         "container": {
             "reference": "decorator",
-            "identifiers": ["uuid:aba9e59f-88da-464b-95dd-c0807d0415cd"]
+            "identifiers": ["uuid:25e6c4b1-b623-4ceb-89f4-4f23fc2fb68d"]
         },
-        "identifiers": ["uuid:174d8415-987e-4d26-8f8e-5e494fa58a5b"],
+        "identifiers": ["uuid:468bbf15-de26-443c-af9b-01461abb6243"],
         "icon": "far fa-question-circle",
         "description": "A live force-layout graph of this classifier and related classifiers showing relationships between them",
         "type": {
@@ -2062,9 +2062,9 @@
     {
         "container": {
             "reference": "decorator",
-            "identifiers": ["uuid:ae98ecc9-3f6e-4f00-8559-466495e59943"]
+            "identifiers": ["uuid:b01742e5-fca2-4dfc-a453-e44ac8178690"]
         },
-        "identifiers": ["uuid:0bc0cd1a-afed-4330-a7ba-09a25adb07c5"],
+        "identifiers": ["uuid:0a34c196-6e3e-4601-b425-a40eae7a8266"],
         "icon": "far fa-question-circle",
         "description": "Graphs of package classifiers showing relationships between them",
         "type": {
@@ -2075,9 +2075,9 @@
     {
         "container": {
             "reference": "navigation",
-            "identifiers": ["uuid:98fefef7-dbc4-49fc-8b03-75e6453bac80"]
+            "identifiers": ["uuid:9794249c-dfca-4c29-8219-1bd4f1e56f19"]
         },
-        "identifiers": ["uuid:915826cc-c8cd-45fd-be82-6e6bca4dd3e6"],
+        "identifiers": ["uuid:9650d75a-af27-482d-afec-9d556f5aa90a"],
         "name": "Load specification",
         "location": "references/eClassifiers/SourceFileCoverage/load-specification.html",
         "type": {
@@ -2088,9 +2088,9 @@
     {
         "container": {
             "reference": "decorator",
-            "identifiers": ["uuid:57029de4-1c9e-463b-be98-66298d706886"]
+            "identifiers": ["uuid:0e2cc33b-8217-4953-a4d0-75a3bcbaa5c7"]
         },
-        "identifiers": ["uuid:3f3e3394-058b-4556-9bba-e9af4e072f4f"],
+        "identifiers": ["uuid:0ef3a563-56fc-4fe6-b520-0d58df2155f3"],
         "icon": "far fa-question-circle",
         "type": {
             "name": "Link",
@@ -2100,9 +2100,9 @@
     {
         "container": {
             "reference": "navigation",
-            "identifiers": ["uuid:57029de4-1c9e-463b-be98-66298d706886"]
+            "identifiers": ["uuid:0e2cc33b-8217-4953-a4d0-75a3bcbaa5c7"]
         },
-        "identifiers": ["uuid:6086ee8c-6877-46db-b9cd-763c8c0d1207"],
+        "identifiers": ["uuid:f3b5e13e-2057-42cb-a48c-890e7df45b56"],
         "name": "Classifiers",
         "location": "classifiers.html",
         "type": {
@@ -2113,9 +2113,9 @@
     {
         "container": {
             "reference": "navigation",
-            "identifiers": ["uuid:57029de4-1c9e-463b-be98-66298d706886"]
+            "identifiers": ["uuid:0e2cc33b-8217-4953-a4d0-75a3bcbaa5c7"]
         },
-        "identifiers": ["uuid:c0d89327-2342-4040-9f6e-347f5bc21192"],
+        "identifiers": ["uuid:3e9c0655-aa31-4e74-baf0-78d9afeb1558"],
         "name": "Diagram",
         "icon": "fas fa-project-diagram",
         "location": "diagram.html",
@@ -2127,9 +2127,9 @@
     {
         "container": {
             "reference": "decorator",
-            "identifiers": ["uuid:c0d89327-2342-4040-9f6e-347f5bc21192"]
+            "identifiers": ["uuid:3e9c0655-aa31-4e74-baf0-78d9afeb1558"]
         },
-        "identifiers": ["uuid:17f20799-0511-44e6-8d83-0dcc530f3d0d"],
+        "identifiers": ["uuid:4f87d99e-f496-49ed-b366-9084be31a830"],
         "icon": "far fa-question-circle",
         "description": "A class diagram showing package classifiers and relationships between them",
         "type": {
@@ -2140,9 +2140,9 @@
     {
         "container": {
             "reference": "navigation",
-            "identifiers": ["uuid:57029de4-1c9e-463b-be98-66298d706886"]
+            "identifiers": ["uuid:0e2cc33b-8217-4953-a4d0-75a3bcbaa5c7"]
         },
-        "identifiers": ["uuid:9296ab73-71c5-41f8-aaa8-5ff18c483d16"],
+        "identifiers": ["uuid:17f7f49c-9b63-4825-a18b-40dadb66cb59"],
         "name": "Graphs",
         "icon": "https://img.icons8.com/external-dreamstale-lineal-dreamstale/16/external-diagram-seo-media-dreamstale-lineal-dreamstale.png",
         "type": {
@@ -2153,9 +2153,9 @@
     {
         "container": {
             "reference": "children",
-            "identifiers": ["uuid:9296ab73-71c5-41f8-aaa8-5ff18c483d16"]
+            "identifiers": ["uuid:17f7f49c-9b63-4825-a18b-40dadb66cb59"]
         },
-        "identifiers": ["uuid:d5150996-f81b-4faa-868c-45b71f31ed99"],
+        "identifiers": ["uuid:2586f6c2-e257-43c4-b530-941d68c9c167"],
         "name": "Default Graph",
         "location": "default-graph.html",
         "type": {
@@ -2166,9 +2166,9 @@
     {
         "container": {
             "reference": "decorator",
-            "identifiers": ["uuid:d5150996-f81b-4faa-868c-45b71f31ed99"]
+            "identifiers": ["uuid:2586f6c2-e257-43c4-b530-941d68c9c167"]
         },
-        "identifiers": ["uuid:63936034-cceb-46e1-b707-621da75e7379"],
+        "identifiers": ["uuid:0ca5e8ab-e9cf-4d87-b443-a11441876669"],
         "icon": "far fa-question-circle",
         "description": "A fixed force-layout graph of package classifiers showing relationships between them",
         "type": {
@@ -2179,9 +2179,9 @@
     {
         "container": {
             "reference": "children",
-            "identifiers": ["uuid:9296ab73-71c5-41f8-aaa8-5ff18c483d16"]
+            "identifiers": ["uuid:17f7f49c-9b63-4825-a18b-40dadb66cb59"]
         },
-        "identifiers": ["uuid:c515ffde-9e4b-4e7f-bac9-2e01c2bc837c"],
+        "identifiers": ["uuid:757356b6-34b9-4fcb-9d2f-3f3ec6a6decf"],
         "name": "Circular Graph",
         "location": "circular-layout-graph.html",
         "type": {
@@ -2192,9 +2192,9 @@
     {
         "container": {
             "reference": "decorator",
-            "identifiers": ["uuid:c515ffde-9e4b-4e7f-bac9-2e01c2bc837c"]
+            "identifiers": ["uuid:757356b6-34b9-4fcb-9d2f-3f3ec6a6decf"]
         },
-        "identifiers": ["uuid:534bbc86-17c9-47ac-bc10-5e8b51d4f73a"],
+        "identifiers": ["uuid:f409fa8c-6394-4a85-a2a6-5b68a526f4df"],
         "icon": "far fa-question-circle",
         "description": "A circular layout graph of package classifiers showing relationships between them",
         "type": {
@@ -2205,9 +2205,9 @@
     {
         "container": {
             "reference": "children",
-            "identifiers": ["uuid:9296ab73-71c5-41f8-aaa8-5ff18c483d16"]
+            "identifiers": ["uuid:17f7f49c-9b63-4825-a18b-40dadb66cb59"]
         },
-        "identifiers": ["uuid:b7a4168b-ac71-43c2-ad5f-d7e47ca7937b"],
+        "identifiers": ["uuid:309d8b56-24fc-46b5-bebf-0a6bbbf59fbb"],
         "name": "Force Graph",
         "location": "force-layout-graph.html",
         "type": {
@@ -2218,9 +2218,9 @@
     {
         "container": {
             "reference": "decorator",
-            "identifiers": ["uuid:b7a4168b-ac71-43c2-ad5f-d7e47ca7937b"]
+            "identifiers": ["uuid:309d8b56-24fc-46b5-bebf-0a6bbbf59fbb"]
         },
-        "identifiers": ["uuid:cfdf8635-b766-4d8a-9e0b-37351390b7a3"],
+        "identifiers": ["uuid:9e366f93-d746-4737-ab0e-5c7f06ffeaec"],
         "icon": "far fa-question-circle",
         "description": "A live force-layout graph of package classifiers showing relationships between them",
         "type": {
@@ -2231,9 +2231,9 @@
     {
         "container": {
             "reference": "children",
-            "identifiers": ["uuid:9296ab73-71c5-41f8-aaa8-5ff18c483d16"]
+            "identifiers": ["uuid:17f7f49c-9b63-4825-a18b-40dadb66cb59"]
         },
-        "identifiers": ["uuid:fddb2f42-c7a7-4941-bec6-92a0a9329104"],
+        "identifiers": ["uuid:970b06dc-1ffe-40b1-9680-3483e3f91b17"],
         "description": "With dependencies and sub-packages",
         "type": {
             "name": "Label",
@@ -2243,9 +2243,9 @@
     {
         "container": {
             "reference": "children",
-            "identifiers": ["uuid:9296ab73-71c5-41f8-aaa8-5ff18c483d16"]
+            "identifiers": ["uuid:17f7f49c-9b63-4825-a18b-40dadb66cb59"]
         },
-        "identifiers": ["uuid:4da085cd-76d2-432e-b083-f306b2638a4d"],
+        "identifiers": ["uuid:4d1a733a-4a41-4449-8d63-ae6bf76bbcae"],
         "name": "Default Graph",
         "location": "default-graph-with-dependencies-and-subpackages.html",
         "type": {
@@ -2256,9 +2256,9 @@
     {
         "container": {
             "reference": "decorator",
-            "identifiers": ["uuid:4da085cd-76d2-432e-b083-f306b2638a4d"]
+            "identifiers": ["uuid:4d1a733a-4a41-4449-8d63-ae6bf76bbcae"]
         },
-        "identifiers": ["uuid:9fa56cb3-5274-4a92-8ea6-4411ee19ee9f"],
+        "identifiers": ["uuid:dd1b3b88-dbe0-4137-b93c-4a3f23da1470"],
         "icon": "far fa-question-circle",
         "description": "A fixed force-layout graph of package classifiers showing relationships between them",
         "type": {
@@ -2269,9 +2269,9 @@
     {
         "container": {
             "reference": "children",
-            "identifiers": ["uuid:9296ab73-71c5-41f8-aaa8-5ff18c483d16"]
+            "identifiers": ["uuid:17f7f49c-9b63-4825-a18b-40dadb66cb59"]
         },
-        "identifiers": ["uuid:8c671936-f9a3-4220-813f-be04979232c7"],
+        "identifiers": ["uuid:b3e13d1b-0c65-4524-8a9d-5b193b02511a"],
         "name": "Circular Graph",
         "location": "circular-layout-graph-with-dependencies-and-subpackages.html",
         "type": {
@@ -2282,9 +2282,9 @@
     {
         "container": {
             "reference": "decorator",
-            "identifiers": ["uuid:8c671936-f9a3-4220-813f-be04979232c7"]
+            "identifiers": ["uuid:b3e13d1b-0c65-4524-8a9d-5b193b02511a"]
         },
-        "identifiers": ["uuid:2717f436-3c8c-4bb6-a764-38991e88d8d6"],
+        "identifiers": ["uuid:3ab0103a-8142-41a3-8348-7e3dfb1394f1"],
         "icon": "far fa-question-circle",
         "description": "A circular layout graph of package classifiers showing relationships between them",
         "type": {
@@ -2295,9 +2295,9 @@
     {
         "container": {
             "reference": "children",
-            "identifiers": ["uuid:9296ab73-71c5-41f8-aaa8-5ff18c483d16"]
+            "identifiers": ["uuid:17f7f49c-9b63-4825-a18b-40dadb66cb59"]
         },
-        "identifiers": ["uuid:5151ecb5-e573-484c-a4a5-20aa164362f1"],
+        "identifiers": ["uuid:595dcbd0-14d2-4713-9b22-34b6507f6ac7"],
         "name": "Force Graph",
         "location": "force-layout-graph-with-dependencies-and-subpackages.html",
         "type": {
@@ -2308,9 +2308,9 @@
     {
         "container": {
             "reference": "decorator",
-            "identifiers": ["uuid:5151ecb5-e573-484c-a4a5-20aa164362f1"]
+            "identifiers": ["uuid:595dcbd0-14d2-4713-9b22-34b6507f6ac7"]
         },
-        "identifiers": ["uuid:6021540a-bc26-402d-b054-e50d9025156f"],
+        "identifiers": ["uuid:9d26589e-b665-4f90-8ef2-6c1c17e52ff7"],
         "icon": "far fa-question-circle",
         "description": "A live force-layout graph of package classifiers showing relationships between them",
         "type": {
@@ -2321,9 +2321,9 @@
     {
         "container": {
             "reference": "decorator",
-            "identifiers": ["uuid:9296ab73-71c5-41f8-aaa8-5ff18c483d16"]
+            "identifiers": ["uuid:17f7f49c-9b63-4825-a18b-40dadb66cb59"]
         },
-        "identifiers": ["uuid:17a5e24d-22d4-4568-889c-b5e49ab023e4"],
+        "identifiers": ["uuid:05ef8539-2751-428c-be36-d23aefb127e3"],
         "icon": "far fa-question-circle",
         "description": "Graphs of package classifiers showing relationships between them",
         "type": {
