@@ -2,482 +2,482 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" >
   <url>
     <loc>https://coverage.models.nasdanika.org/circular-layout-graph-with-dependencies-and-subpackages.html</loc>
-    <lastmod>2024-07-08T08:26:44.451-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.781-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/circular-layout-graph.html</loc>
-    <lastmod>2024-07-08T08:26:44.443-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.773-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/classifiers.html</loc>
-    <lastmod>2024-07-08T08:26:44.431-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.761-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/default-graph-with-dependencies-and-subpackages.html</loc>
-    <lastmod>2024-07-08T08:26:44.448-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.777-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/default-graph.html</loc>
-    <lastmod>2024-07-08T08:26:44.441-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.771-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/diagram.html</loc>
-    <lastmod>2024-07-08T08:26:44.439-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.769-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/force-layout-graph-with-dependencies-and-subpackages.html</loc>
-    <lastmod>2024-07-08T08:26:44.455-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.783-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/force-layout-graph.html</loc>
-    <lastmod>2024-07-08T08:26:44.445-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.775-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/glossary.html</loc>
-    <lastmod>2024-07-08T08:26:44.464-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.792-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/index.html</loc>
-    <lastmod>2024-07-08T08:26:44.186-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.539-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/ClassCoverage/attributes.html</loc>
-    <lastmod>2024-07-08T08:26:44.193-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.546-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/ClassCoverage/circular-layout-graph.html</loc>
-    <lastmod>2024-07-08T08:26:44.211-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.562-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/ClassCoverage/default-graph.html</loc>
-    <lastmod>2024-07-08T08:26:44.208-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.559-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/ClassCoverage/diagram.html</loc>
-    <lastmod>2024-07-08T08:26:44.204-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.557-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/ClassCoverage/force-layout-graph.html</loc>
-    <lastmod>2024-07-08T08:26:44.216-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.566-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/ClassCoverage/index.html</loc>
-    <lastmod>2024-07-08T08:26:44.191-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.543-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/ClassCoverage/inheritance.html</loc>
-    <lastmod>2024-07-08T08:26:44.197-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.549-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/ClassCoverage/load-specification.html</loc>
-    <lastmod>2024-07-08T08:26:44.219-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.568-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/ClassCoverage/references.html</loc>
-    <lastmod>2024-07-08T08:26:44.199-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.552-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/Counter/attributes.html</loc>
-    <lastmod>2024-07-08T08:26:44.224-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.573-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/Counter/circular-layout-graph.html</loc>
-    <lastmod>2024-07-08T08:26:44.233-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.584-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/Counter/default-graph.html</loc>
-    <lastmod>2024-07-08T08:26:44.231-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.581-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/Counter/diagram.html</loc>
-    <lastmod>2024-07-08T08:26:44.227-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.577-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/Counter/force-layout-graph.html</loc>
-    <lastmod>2024-07-08T08:26:44.236-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.586-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/Counter/index.html</loc>
-    <lastmod>2024-07-08T08:26:44.222-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.571-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/Counter/load-specification.html</loc>
-    <lastmod>2024-07-08T08:26:44.240-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.589-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/Coverage/attributes.html</loc>
-    <lastmod>2024-07-08T08:26:44.244-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.593-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/Coverage/circular-layout-graph.html</loc>
-    <lastmod>2024-07-08T08:26:44.263-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.609-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/Coverage/default-graph.html</loc>
-    <lastmod>2024-07-08T08:26:44.261-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.607-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/Coverage/diagram.html</loc>
-    <lastmod>2024-07-08T08:26:44.258-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.604-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/Coverage/force-layout-graph.html</loc>
-    <lastmod>2024-07-08T08:26:44.265-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.612-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/Coverage/index.html</loc>
-    <lastmod>2024-07-08T08:26:44.242-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.591-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/Coverage/inheritance.html</loc>
-    <lastmod>2024-07-08T08:26:44.251-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.600-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/Coverage/load-specification.html</loc>
-    <lastmod>2024-07-08T08:26:44.268-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.615-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/Coverage/references.html</loc>
-    <lastmod>2024-07-08T08:26:44.247-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.597-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/Line/attributes.html</loc>
-    <lastmod>2024-07-08T08:26:44.274-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.621-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/Line/circular-layout-graph.html</loc>
-    <lastmod>2024-07-08T08:26:44.287-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.630-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/Line/default-graph.html</loc>
-    <lastmod>2024-07-08T08:26:44.283-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.628-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/Line/diagram.html</loc>
-    <lastmod>2024-07-08T08:26:44.281-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.627-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/Line/force-layout-graph.html</loc>
-    <lastmod>2024-07-08T08:26:44.289-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.632-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/Line/index.html</loc>
-    <lastmod>2024-07-08T08:26:44.272-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.618-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/Line/load-specification.html</loc>
-    <lastmod>2024-07-08T08:26:44.292-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.633-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/Line/references.html</loc>
-    <lastmod>2024-07-08T08:26:44.276-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.623-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/MethodCoverage/attributes.html</loc>
-    <lastmod>2024-07-08T08:26:44.298-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.638-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/MethodCoverage/circular-layout-graph.html</loc>
-    <lastmod>2024-07-08T08:26:44.311-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.651-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/MethodCoverage/default-graph.html</loc>
-    <lastmod>2024-07-08T08:26:44.307-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.650-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/MethodCoverage/diagram.html</loc>
-    <lastmod>2024-07-08T08:26:44.306-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.648-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/MethodCoverage/force-layout-graph.html</loc>
-    <lastmod>2024-07-08T08:26:44.313-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.653-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/MethodCoverage/index.html</loc>
-    <lastmod>2024-07-08T08:26:44.296-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.636-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/MethodCoverage/inheritance.html</loc>
-    <lastmod>2024-07-08T08:26:44.300-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.642-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/MethodCoverage/load-specification.html</loc>
-    <lastmod>2024-07-08T08:26:44.316-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.657-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/MethodCoverage/references.html</loc>
-    <lastmod>2024-07-08T08:26:44.302-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.645-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/ModuleCoverage/attributes.html</loc>
-    <lastmod>2024-07-08T08:26:44.322-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.662-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/ModuleCoverage/circular-layout-graph.html</loc>
-    <lastmod>2024-07-08T08:26:44.335-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.674-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/ModuleCoverage/default-graph.html</loc>
-    <lastmod>2024-07-08T08:26:44.332-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.671-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/ModuleCoverage/diagram.html</loc>
-    <lastmod>2024-07-08T08:26:44.330-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.668-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/ModuleCoverage/force-layout-graph.html</loc>
-    <lastmod>2024-07-08T08:26:44.337-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.677-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/ModuleCoverage/index.html</loc>
-    <lastmod>2024-07-08T08:26:44.319-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.660-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/ModuleCoverage/inheritance.html</loc>
-    <lastmod>2024-07-08T08:26:44.324-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.664-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/ModuleCoverage/load-specification.html</loc>
-    <lastmod>2024-07-08T08:26:44.339-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.679-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/ModuleCoverage/references.html</loc>
-    <lastmod>2024-07-08T08:26:44.327-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.666-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/PackageCoverage/attributes.html</loc>
-    <lastmod>2024-07-08T08:26:44.342-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.682-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/PackageCoverage/circular-layout-graph.html</loc>
-    <lastmod>2024-07-08T08:26:44.358-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.693-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/PackageCoverage/default-graph.html</loc>
-    <lastmod>2024-07-08T08:26:44.355-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.691-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/PackageCoverage/diagram.html</loc>
-    <lastmod>2024-07-08T08:26:44.352-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.689-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/PackageCoverage/force-layout-graph.html</loc>
-    <lastmod>2024-07-08T08:26:44.360-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.696-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/PackageCoverage/index.html</loc>
-    <lastmod>2024-07-08T08:26:44.341-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.681-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/PackageCoverage/inheritance.html</loc>
-    <lastmod>2024-07-08T08:26:44.344-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.684-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/PackageCoverage/load-specification.html</loc>
-    <lastmod>2024-07-08T08:26:44.363-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.699-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/PackageCoverage/references.html</loc>
-    <lastmod>2024-07-08T08:26:44.347-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.686-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/Session/attributes.html</loc>
-    <lastmod>2024-07-08T08:26:44.368-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.704-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/Session/circular-layout-graph.html</loc>
-    <lastmod>2024-07-08T08:26:44.376-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.711-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/Session/default-graph.html</loc>
-    <lastmod>2024-07-08T08:26:44.374-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.708-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/Session/diagram.html</loc>
-    <lastmod>2024-07-08T08:26:44.371-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.706-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/Session/force-layout-graph.html</loc>
-    <lastmod>2024-07-08T08:26:44.379-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.713-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/Session/index.html</loc>
-    <lastmod>2024-07-08T08:26:44.365-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.702-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/Session/load-specification.html</loc>
-    <lastmod>2024-07-08T08:26:44.380-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.715-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/SourceCoverage/attributes.html</loc>
-    <lastmod>2024-07-08T08:26:44.388-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.719-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/SourceCoverage/circular-layout-graph.html</loc>
-    <lastmod>2024-07-08T08:26:44.403-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.733-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/SourceCoverage/default-graph.html</loc>
-    <lastmod>2024-07-08T08:26:44.399-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.731-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/SourceCoverage/diagram.html</loc>
-    <lastmod>2024-07-08T08:26:44.397-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.728-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/SourceCoverage/force-layout-graph.html</loc>
-    <lastmod>2024-07-08T08:26:44.406-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.735-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/SourceCoverage/index.html</loc>
-    <lastmod>2024-07-08T08:26:44.384-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.718-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/SourceCoverage/inheritance.html</loc>
-    <lastmod>2024-07-08T08:26:44.391-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.721-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/SourceCoverage/load-specification.html</loc>
-    <lastmod>2024-07-08T08:26:44.409-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.737-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/SourceCoverage/references.html</loc>
-    <lastmod>2024-07-08T08:26:44.393-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.724-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/SourceFileCoverage/attributes.html</loc>
-    <lastmod>2024-07-08T08:26:44.413-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.743-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/SourceFileCoverage/circular-layout-graph.html</loc>
-    <lastmod>2024-07-08T08:26:44.422-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.753-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/SourceFileCoverage/default-graph.html</loc>
-    <lastmod>2024-07-08T08:26:44.421-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.751-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/SourceFileCoverage/diagram.html</loc>
-    <lastmod>2024-07-08T08:26:44.419-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.750-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/SourceFileCoverage/force-layout-graph.html</loc>
-    <lastmod>2024-07-08T08:26:44.425-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.756-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/SourceFileCoverage/index.html</loc>
-    <lastmod>2024-07-08T08:26:44.411-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.740-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/SourceFileCoverage/inheritance.html</loc>
-    <lastmod>2024-07-08T08:26:44.415-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.745-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/SourceFileCoverage/load-specification.html</loc>
-    <lastmod>2024-07-08T08:26:44.428-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.759-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/references/eClassifiers/SourceFileCoverage/references.html</loc>
-    <lastmod>2024-07-08T08:26:44.417-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.747-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://coverage.models.nasdanika.org/search.html</loc>
-    <lastmod>2024-07-08T08:26:44.459-04:00</lastmod>
+    <lastmod>2024-07-23T17:46:51.787-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
 </urlset>
