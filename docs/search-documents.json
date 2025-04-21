@@ -1,229 +1,229 @@
 {
   "references/eClassifiers/Line/references/eStructuralFeatures/number/index.html": {
     "path": "Line/Attributes/number",
-    "link-uuid": "d71d08f4-57e8-412a-8d71-fefce33c5021",
+    "link-uuid": "364c89e3-7ab1-4cff-a024-bb97dee0de79",
     "title": "number",
     "content": "Type EInt Multiplicity 0..1"
   },
   "references/eClassifiers/ClassCoverage/references/eStructuralFeatures/id/index.html": {
     "path": "ClassCoverage/Attributes/id",
-    "link-uuid": "87bd9db6-0162-4cd3-b042-3585b8f0919d",
+    "link-uuid": "6034b27a-93ed-41d4-b161-d3c9030bbd10",
     "title": "id",
     "content": "Type ELong Multiplicity 0..1"
   },
   "references/eClassifiers/ClassCoverage/references/eStructuralFeatures/signature/index.html": {
     "path": "ClassCoverage/Attributes/signature",
-    "link-uuid": "90817b34-1f77-4084-9f49-79125c84632d",
+    "link-uuid": "ff004b55-8f61-4778-9df6-1c73e404b14b",
     "title": "signature",
     "content": "Type EString Multiplicity 0..1"
   },
   "references/eClassifiers/Coverage/references/eStructuralFeatures/methodCounter/index.html": {
     "path": "Coverage/References/methodCounter",
-    "link-uuid": "0f0675e3-f8dc-4566-b385-4a7079d98641",
+    "link-uuid": "87c81eab-325b-48a1-9c2f-54fc5741f895",
     "title": "methodCounter",
     "content": "Type Counter Multiplicity 0..1"
   },
   "references/eClassifiers/ClassCoverage/references/eStructuralFeatures/interfaces/index.html": {
     "path": "ClassCoverage/Attributes/interfaces",
-    "link-uuid": "63f8b99a-8d94-4e72-becd-75dacfbad1ec",
+    "link-uuid": "2ecf2838-6a56-4440-a887-748fa1177bc2",
     "title": "interfaces",
     "content": "Type EString Multiplicity 0..*"
   },
   "references/eClassifiers/Session/references/eStructuralFeatures/dump/index.html": {
     "path": "Session/Attributes/dump",
-    "link-uuid": "1ada768a-ae8a-420a-8be6-c871fdc914e5",
+    "link-uuid": "a2c53908-f3aa-4a31-bd35-5adea5a38ba6",
     "title": "dump",
     "content": "Type EDate Multiplicity 0..1"
   },
   "references/eClassifiers/SourceFileCoverage/inheritance.html": {
     "path": "SourceFileCoverage/Inheritance",
-    "link-uuid": "3cd41e92-7cad-4a3c-8929-a073f85b1884",
+    "link-uuid": "c07437b4-c9cf-45d5-9675-c0337e4ce515",
     "title": "Inheritance",
     "content": "Supertypes "
   },
   "references/eClassifiers/Coverage/inheritance.html": {
     "path": "Coverage/Inheritance",
-    "link-uuid": "669567e4-afe1-4819-8ec5-7f8489483caf",
+    "link-uuid": "eab785ef-e54a-4647-a6f4-0f108669ef0f",
     "title": "Inheritance",
     "content": "Subtypes "
   },
   "references/eClassifiers/Session/references/eStructuralFeatures/id/index.html": {
     "path": "Session/Attributes/id",
-    "link-uuid": "997144d6-53ff-4909-8668-ca5a64d0141f",
+    "link-uuid": "f085d9f4-7b92-4f23-9093-45fab41e028d",
     "title": "id",
     "content": "Type EString Multiplicity 0..1"
   },
   "references/eClassifiers/ClassCoverage/references/eStructuralFeatures/sourceFile/index.html": {
     "path": "ClassCoverage/Attributes/sourceFile",
-    "link-uuid": "eb261233-f204-4c06-9178-316465245411",
+    "link-uuid": "beb0c360-955c-4c43-9523-efb626705697",
     "title": "sourceFile",
     "content": "Type EString Multiplicity 0..1"
   },
   "references/eClassifiers/Counter/references/eStructuralFeatures/covered/index.html": {
     "path": "Counter/Attributes/covered",
-    "link-uuid": "072dcaa0-9dd0-4a4a-afc4-e8f7efb70eb3",
+    "link-uuid": "fcf1b796-851e-4bf3-919d-dbc36539b9d4",
     "title": "covered",
     "content": "Type EInt Multiplicity 0..1"
   },
   "references/eClassifiers/MethodCoverage/inheritance.html": {
     "path": "MethodCoverage/Inheritance",
-    "link-uuid": "bfb1380d-d9e3-41ae-b325-f3695ca8eceb",
+    "link-uuid": "f38a7206-2a46-41a9-834d-c7c91b995471",
     "title": "Inheritance",
     "content": "Supertypes "
   },
   "references/eClassifiers/Coverage/references/eStructuralFeatures/classCounter/index.html": {
     "path": "Coverage/References/classCounter",
-    "link-uuid": "922aca8a-ea81-4518-a970-249d4134b6a5",
+    "link-uuid": "3b7b8d10-5458-4cb9-9669-bacee2c96887",
     "title": "classCounter",
     "content": "Type Counter Multiplicity 0..1"
   },
   "references/eClassifiers/ClassCoverage/references/eStructuralFeatures/noMatch/index.html": {
     "path": "ClassCoverage/Attributes/noMatch",
-    "link-uuid": "87e31e5e-5ae5-4e78-afaf-0794bff1e39e",
+    "link-uuid": "1d709d6b-4dc7-494f-ac57-6a27a567f5bb",
     "title": "noMatch",
     "content": "Type EBoolean Multiplicity 0..1"
   },
   "references/eClassifiers/MethodCoverage/references/eStructuralFeatures/description/index.html": {
     "path": "MethodCoverage/Attributes/description",
-    "link-uuid": "2d62f1ec-4194-4a03-a5c2-36df763ee9bd",
+    "link-uuid": "f890fda0-d4ac-4e2a-b9fd-f8aa8c211799",
     "title": "description",
     "content": "Type EString Multiplicity 0..1"
   },
   "references/eClassifiers/Line/references/eStructuralFeatures/branchCounter/index.html": {
     "path": "Line/References/branchCounter",
-    "link-uuid": "bf54249b-f179-4aeb-8b31-840734786894",
+    "link-uuid": "00c82dc2-7e4f-46f0-86ce-4a77ef7f9901",
     "title": "branchCounter",
     "content": "Type Counter Multiplicity 0..1"
   },
   "references/eClassifiers/SourceCoverage/inheritance.html": {
     "path": "SourceCoverage/Inheritance",
-    "link-uuid": "8254c8e0-0f37-4d2d-b37b-7b73d1367531",
+    "link-uuid": "e09850b9-8639-49e8-baee-13c04e635021",
     "title": "Inheritance",
     "content": "Supertypes Subtypes  "
   },
   "references/eClassifiers/ModuleCoverage/inheritance.html": {
     "path": "ModuleCoverage/Inheritance",
-    "link-uuid": "6cf3db75-49ae-4693-9d90-a2b92af0fdbf",
+    "link-uuid": "373fff57-10f1-4eeb-9367-4c5daa1bb502",
     "title": "Inheritance",
     "content": "Supertypes "
   },
   "references/eClassifiers/ModuleCoverage/references/eStructuralFeatures/packages/index.html": {
     "path": "ModuleCoverage/References/packages",
-    "link-uuid": "642d8bd9-5e9d-43fa-9453-e1b7f91d3ae4",
+    "link-uuid": "4cbe6517-5764-4485-9ad6-7afe8d64c44f",
     "title": "packages",
     "content": "Type PackageCoverage Multiplicity 0..*"
   },
   "references/eClassifiers/Session/references/eStructuralFeatures/start/index.html": {
     "path": "Session/Attributes/start",
-    "link-uuid": "fae9d135-d91f-41a4-a52a-c26d4df79980",
+    "link-uuid": "ec8f6989-6287-4f49-afd8-ec34641a2356",
     "title": "start",
     "content": "Type EDate Multiplicity 0..1"
   },
   "references/eClassifiers/MethodCoverage/references/eStructuralFeatures/parameterTypes/index.html": {
     "path": "MethodCoverage/Attributes/parameterTypes",
-    "link-uuid": "166c5bd5-4f78-47df-aebd-6cea17eeb2e4",
+    "link-uuid": "19da2027-16ad-4da7-8106-f51c96f08253",
     "title": "parameterTypes",
     "content": "Type EString Multiplicity 0..*"
   },
   "references/eClassifiers/SourceCoverage/references/eStructuralFeatures/lines/index.html": {
     "path": "SourceCoverage/References/lines",
-    "link-uuid": "c79a6262-6787-4692-a3c6-c4db19309a22",
+    "link-uuid": "172078cf-8628-476e-b66a-51de7cc26e28",
     "title": "lines",
     "content": "Type Line Multiplicity 0..*"
   },
   "references/eClassifiers/ClassCoverage/references/eStructuralFeatures/methods/index.html": {
     "path": "ClassCoverage/References/methods",
-    "link-uuid": "546205d5-287d-4b42-8ab0-a8adf99e0199",
+    "link-uuid": "9e4254e4-1a0d-420a-93fc-af1e107cd6ad",
     "title": "methods",
     "content": "Type MethodCoverage Multiplicity 0..*"
   },
   "references/eClassifiers/ClassCoverage/references/eStructuralFeatures/packageName/index.html": {
     "path": "ClassCoverage/Attributes/packageName",
-    "link-uuid": "3fd45a37-1d69-45bd-aa6d-86f35036a67d",
+    "link-uuid": "a0c8cc0f-c6ba-41ea-af6f-b94d05f6ce38",
     "title": "packageName",
     "content": "Type EString Multiplicity 0..1"
   },
   "references/eClassifiers/ClassCoverage/references/eStructuralFeatures/superType/index.html": {
     "path": "ClassCoverage/Attributes/superType",
-    "link-uuid": "8cdf7e9f-3d99-43f9-9e2c-39907cd35459",
+    "link-uuid": "8804dbd2-0730-4e5d-a2cc-f05b268f1cc9",
     "title": "superType",
     "content": "Type EString Multiplicity 0..1"
   },
   "references/eClassifiers/MethodCoverage/references/eStructuralFeatures/signature/index.html": {
     "path": "MethodCoverage/Attributes/signature",
-    "link-uuid": "816ef6b1-b695-4602-945e-aa7162218214",
+    "link-uuid": "3082bcc6-d548-4127-b3f7-f0bd020635ce",
     "title": "signature",
     "content": "Type EString Multiplicity 0..1"
   },
   "references/eClassifiers/Coverage/references/eStructuralFeatures/instructionCounter/index.html": {
     "path": "Coverage/References/instructionCounter",
-    "link-uuid": "7a755b57-c77d-45d3-a4a7-57b4e3fbee96",
+    "link-uuid": "2824a5c7-ec69-44e7-8374-62d0d2d33ef1",
     "title": "instructionCounter",
     "content": "Type Counter Multiplicity 0..1"
   },
   "references/eClassifiers/ClassCoverage/inheritance.html": {
     "path": "ClassCoverage/Inheritance",
-    "link-uuid": "39e14f76-ab17-47f9-a644-52170ce1bb23",
+    "link-uuid": "fedc1e57-e044-4e98-b9d4-7267e31dd8ab",
     "title": "Inheritance",
     "content": "Supertypes "
   },
   "references/eClassifiers/Coverage/references/eStructuralFeatures/branchCounter/index.html": {
     "path": "Coverage/References/branchCounter",
-    "link-uuid": "2cdfcbe5-3690-4c37-ba19-ea4bc8b2ecb3",
+    "link-uuid": "1761a0fa-14dd-48a9-b041-efe3e37b5b1a",
     "title": "branchCounter",
     "content": "Type Counter Multiplicity 0..1"
   },
   "references/eClassifiers/Coverage/references/eStructuralFeatures/lineCounter/index.html": {
     "path": "Coverage/References/lineCounter",
-    "link-uuid": "1eb6d7ff-a1d3-4707-b51b-993fdfec0e70",
+    "link-uuid": "f2514b6b-9c79-45cd-b919-4eb6bd2c0b42",
     "title": "lineCounter",
     "content": "Type Counter Multiplicity 0..1"
   },
   "references/eClassifiers/ModuleCoverage/references/eStructuralFeatures/sessions/index.html": {
     "path": "ModuleCoverage/References/sessions",
-    "link-uuid": "f492e0df-fd73-42ac-80a4-78e9e14010e8",
+    "link-uuid": "1a73274d-4a3b-489c-b642-24a28387d625",
     "title": "sessions",
     "content": "Type Session Multiplicity 0..*"
   },
   "references/eClassifiers/PackageCoverage/references/eStructuralFeatures/classes/index.html": {
     "path": "PackageCoverage/References/classes",
-    "link-uuid": "ac2a40a1-dd75-45b2-a4a7-cf3a29d2e2b3",
+    "link-uuid": "bb238210-aa67-4f4e-8c47-18a0462b454d",
     "title": "classes",
     "content": "Type ClassCoverage Multiplicity 0..*"
   },
   "references/eClassifiers/Coverage/references/eStructuralFeatures/complexityCounter/index.html": {
     "path": "Coverage/References/complexityCounter",
-    "link-uuid": "dcf4a0e4-7004-4772-9aed-d3b1df56997d",
+    "link-uuid": "f63134fc-cabc-497b-8612-130bbad427bf",
     "title": "complexityCounter",
     "content": "Type Counter Multiplicity 0..1"
   },
   "references/eClassifiers/Line/references/eStructuralFeatures/instructionCounter/index.html": {
     "path": "Line/References/instructionCounter",
-    "link-uuid": "e0cc0efb-7f83-4c02-afcd-19be696d8288",
+    "link-uuid": "77c7cb73-7e3c-4a41-af71-11f146e84527",
     "title": "instructionCounter",
     "content": "Type Counter Multiplicity 0..1"
   },
   "references/eClassifiers/PackageCoverage/inheritance.html": {
     "path": "PackageCoverage/Inheritance",
-    "link-uuid": "a579dcae-0048-438c-ac5d-3f0797fc8f26",
+    "link-uuid": "969d1068-c03f-42e4-ad1a-768ae283dc46",
     "title": "Inheritance",
     "content": "Supertypes "
   },
   "references/eClassifiers/Counter/references/eStructuralFeatures/missed/index.html": {
     "path": "Counter/Attributes/missed",
-    "link-uuid": "e5bb867a-4cf8-43bf-8b75-c1d5e3763d6f",
+    "link-uuid": "da12e37f-19f5-4c1d-a278-9b0999815461",
     "title": "missed",
     "content": "Type EInt Multiplicity 0..1"
   },
   "references/eClassifiers/Coverage/references/eStructuralFeatures/name/index.html": {
     "path": "Coverage/Attributes/name",
-    "link-uuid": "f141e1a7-4b77-4f1f-8f1e-c5cc153dc193",
+    "link-uuid": "37b7a237-3dce-47b8-a689-c4a590e0129f",
     "title": "name",
     "content": "Type EString Multiplicity 0..1"
   },
   "references/eClassifiers/PackageCoverage/references/eStructuralFeatures/sourceFiles/index.html": {
     "path": "PackageCoverage/References/sourceFiles",
-    "link-uuid": "0b6f25c9-82ce-4558-926b-52f8c14f5fe0",
+    "link-uuid": "1314d538-a066-4568-9cdb-b3f9d431aa55",
     "title": "sourceFiles",
     "content": "Type SourceFileCoverage Multiplicity 0..*"
   }
