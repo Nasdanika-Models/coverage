@@ -9,7 +9,7 @@ import org.nasdanika.common.ProgressMonitor;
 import org.nasdanika.graph.Connection;
 import org.nasdanika.graph.Element;
 
-public class ConnectionProcessorInfo<P, H, E> extends ProcessorInfo<P> implements ConnectionProcessorConfig<H, E> {
+public class ConnectionProcessorInfo<H, E, P> extends ProcessorInfo<P> implements ConnectionProcessorConfig<H, E> {
 	
 	/**
 	 * Functional interface for processor/info creation.

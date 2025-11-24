@@ -39,7 +39,7 @@ import org.nasdanika.graph.Element;
  * @param <U>
  * @param <S>
  */
-public class ReflectiveProcessorFactoryProvider<P, H, E> extends Reflector {
+public class ReflectiveProcessorFactoryProvider<H, E, P> extends Reflector {
 	
 	private List<AnnotatedElementRecord> annotatedElementRecords = new ArrayList<>();
 		
